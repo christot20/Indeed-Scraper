@@ -24,11 +24,11 @@ if __name__ == '__main__':
 
     if len(state) != 2:
         #quit out of application/raise error
-        raise ValueError("Invalid State Received.")
-    #elif checker(city, state) == False:
-
+        raise ValueError("Invalid State Received")
+    elif checker(city.upper(), state.upper()) == False:
+        raise ValueError("Location Received Invalid")
     #else:
-    elif job != "" and city != "" and state != "": #checker comes out false, raise value error as not real city, else do this
+    else: #checker comes out false, raise value error as not real city, else do this
         driver = webdriver.Chrome(PATH)
         driver.get(f"https://www.indeed.com/jobs?q={job.upper()}&l={city.upper()}%2C+{state.upper()}&radius=100") #example using ny
         print(driver.title) #prints out total number of jobs with that title in 100 mile radius of that city
