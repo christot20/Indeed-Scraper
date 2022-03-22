@@ -29,3 +29,8 @@ print(geolocator.geocode(f'{me}, {you}'))
 #do it where geocoder thing is
 # SELECT city FROM table WHERE state = ? , state
 
+#clean up data to use sql db in ur project (alex the analyst data vid)
+#https://www.youtube.com/watch?v=qfyynHBFOsM
+#https://www.unitedstateszipcodes.org/zip-code-database/
+
+
