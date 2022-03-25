@@ -1,32 +1,19 @@
-#from geopy.geocoders import Nominatim
+# link to website where csv for db was used: #https://www.unitedstateszipcodes.org/zip-code-database/
+
 import sqlite3
-# state_list = ['AL', 'AK', 'AZ', 'AR', 'CA','CO', 
-#              'CT', 'DE', 'DC', 'FL', 'GA','HI', 
-#              'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 
-#              'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 
-#              'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 
-#              'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 
-#              'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 
-#              'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 
-#              'WV', 'WI', 'WY']
-#geolocator = Nominatim(user_agent="indeedscraper")
 
-def checker(city, state): #check if state in state list, then check if city in state and return true if true or false if not
-    sqliteConnection = sqlite3.connect('locations.db')
-    cursor = sqliteConnection.cursor()
-    print(city)
-    list = cursor.execute("SELECT zip FROM mytable WHERE state = ? AND primary_city = ?;", (state,city)).fetchone()
-    print(list)
-    sqliteConnection.close()
-    if list != None:
-        # sqliteConnection.close()
+def checker(city, state): # check if state in state list, then check if city in state and return true if true or false if not
+    sqliteConnection = sqlite3.connect('locations.db') # connect to db
+    cursor = sqliteConnection.cursor() # cursor for query execution
+    primary = cursor.execute("SELECT zip FROM mytable WHERE state = ? AND primary_city = ?;", (state,city)).fetchone() # check if city exists in state
+    alt = cursor.execute("SELECT zip FROM mytable WHERE state = ? AND acceptable_cities = ?;", (state,city)).fetchone() # checks other names used for cities
+    sqliteConnection.close() # close db
+
+    if primary != None or alt != None: # if location exists return true
         return True
-    # else:
-    #     sqliteConnection.close()
-    #     return False
-    return False
+    return False # return a no good
 
-def fixer(text):
+def fixer(text): #format cities for SQL queries
     for i in range(len(text)):
         if i == 0:
             text[i].upper()
@@ -35,12 +22,6 @@ def fixer(text):
         i += 1
     return text
 
-#new plan, just look through sql database :)
-#do it where geocoder thing is
-# SELECT city FROM table WHERE state = ? , state
-
-#clean up data to use sql db in ur project (alex the analyst data vid)
-#https://www.youtube.com/watch?v=qfyynHBFOsM
-#https://www.unitedstateszipcodes.org/zip-code-database/
-
-
+# might want to make a sql script to make a new table to hold some of the results you get from scraping
+# columns: job, location (city, state), word, frequency, date (maybe, look at how u used it in CS50 web app)
+# make learn to use tableau for this stuff here ^ ? (alex the analyst vid on it, analyst porfolio project part 2)
