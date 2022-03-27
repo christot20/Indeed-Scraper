@@ -13,15 +13,6 @@ def checker(city, state): # check if state in state list, then check if city in 
         return True
     return False # return a no good
 
-def fixer(text): #format cities for SQL queries
-    for i in range(len(text)):
-        if i == 0:
-            text[i].upper()
-        elif text[i] == " ":
-            text[i+1].upper()
-        i += 1
-    return text
-
 # might want to make a sql script to make a new table to hold some of the results you get from scraping
 # columns: job, location (city, state), word, frequency, date (maybe, look at how u used it in CS50 web app)
 # make learn to use tableau for this stuff here ^ ? (alex the analyst vid on it, analyst porfolio project part 2)
