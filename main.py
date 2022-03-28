@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import time
 import urllib.request 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -48,9 +49,9 @@ if __name__ == '__main__':
         #print(tag.text) # gets title of that element^
 
         #for titles in tag:
-        
+        #time.sleep(5)
         tag.click()
-        
+        #time.sleep(3)
         # page_source = driver.page_source
         # soup = BeautifulSoup(page_source, "html.parser")
         
@@ -68,19 +69,32 @@ if __name__ == '__main__':
         url = element.get_attribute("src")
         html = urllib.request.urlopen(url)
         soup = BeautifulSoup(html, "html.parser")
+        #title = soup.find("h1", {"class":"icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title"})
         result = soup.find("div", {"id":"jobDescriptionText"})
-        print(result.text) #prints text in given url
+        print("--------------------------------")
+        #print(title.text)
+        # print(result.text) #prints text in given url
 
         #can prob get rid of stuff under me
         #maybe try to make this stuff above a function and call it whenever a next page button is found
         #implement next page finder and also allow user to choose how many times to go next, probably give a prompt before?
         #afterwards use the nlp library from datacamp website
+        #captchas are issue, try to see if u can get around it (try out undetected chromedirver and if it doesnt work take code u pushed back here)
 
         driver.switch_to.frame("vjs-container-iframe")
         #for words in 
-        new_title = driver.find_element(By.XPATH, '//div[@class="jobsearch-JobComponent-embeddedHeader"]//h1[@class="icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title is-embedded"]')
+        new_title = driver.find_element(By.XPATH, '//div[@class="jobsearch-JobComponent-embeddedHeader"]//h1')
         print(new_title.text)
         driver.switch_to.default_content()
+
+        print(result.text) #prints text in given url
+
+        #check if there is a next button for a certian amount of times and click it
+        # for i in range(user choice)
+        # call scrape function using stuff above
+        # if next button exists
+        # click it and do stuff above again (make it a function)
+        # else break
 
 
         #working for now, gets the title of each job listing from the iframe
