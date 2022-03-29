@@ -16,7 +16,7 @@ def scrape(num):
         time.sleep(4)
         pop_up = driver.find_elements(By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]')
         if len(pop_up) != 0:
-            pop_up[0].click()
+            pop_up[0].click() #check if pop up exists and remove it if yes
             #continue
         for tag in driver.find_elements(By.XPATH, '//div[@id="mosaic-provider-jobcards"]/a'): #iterates over every link
             
@@ -31,11 +31,10 @@ def scrape(num):
             url = element.get_attribute("src")
             html = urllib.request.urlopen(url)
             soup = BeautifulSoup(html, "html.parser")
-            #title = soup.find("h1", {"class":"icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title"})
+            title = soup.find("div", {"class":"jobsearch-JobInfoHeader-title-container"})
             result = soup.find("div", {"id":"jobDescriptionText"})
             print("--------------------------------")
-            #print(title.text)
-            # print(result.text) #prints text in given url
+            print(title.text) #changed finding the title to using bs4 scraping the job page, commented out the moving in and out of frames, check gitub for differences
 
             #can prob get rid of stuff under me
             #maybe try to make this stuff above a function and call it whenever a next page button is found
@@ -43,11 +42,10 @@ def scrape(num):
             #afterwards use the nlp library from datacamp website
             #captchas are issue, try to see if u can get around it (try out undetected chromedirver and if it doesnt work take code u pushed back here)
 
-            driver.switch_to.frame("vjs-container-iframe")
-            #for words in 
-            new_title = driver.find_element(By.XPATH, '//div[@class="jobsearch-JobComponent-embeddedHeader"]//h1')
-            print(new_title.text)
-            driver.switch_to.default_content()
+            # driver.switch_to.frame("vjs-container-iframe")
+            # new_title = driver.find_element(By.XPATH, '//div[@class="jobsearch-JobComponent-embeddedHeader"]//h1')
+            # #print(new_title.text)
+            # driver.switch_to.default_content()
 
             print(result.text) #prints text in given url
         
@@ -56,7 +54,7 @@ def scrape(num):
         if len(next_pg) == 0:
             break
         else:
-            next_pg[0].click()
+            next_pg[0].click() #check if next button exists and click it if yes, else break the loop
             i += 1
 
         #add a thing here that quits if no next button is found
