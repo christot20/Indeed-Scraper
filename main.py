@@ -26,7 +26,7 @@ def plotter():
     #%matplotlib inline
     sns.set()
     freqdist1 = nltk.FreqDist(words)
-    freqdist1.plot(25)
+    freqdist1.plot(25)                # have the plot give the name of the job and place its checking as its title
     #return False
 
 #https://stackoverflow.com/questions/1692388/python-list-of-dict-if-exists-increment-a-dict-value-if-not-append-a-new-dic
@@ -40,7 +40,15 @@ def extract(text):
     stop_words = nltk.corpus.stopwords.words('english')
     for new_word in word:
         if new_word not in stop_words:
-            if not new_word in words:
+            if re.search('[a-zA-Z]', new_word) == None:
+                continue #try to maybe limit it to tech jobs?, get list of tech job names and force that to be used
+                # add data to a sql db by job name, city, state, word, and frequency
+                # use db for tableau visualizations
+                # maybe just get salaries?, would be easier, for now...
+                # list of tech skills, porgramming languages, oses, maybe just count those?
+                # list of data skills, their salaries and positions, and where they are
+                # big data job stuff, make new repo with that, keep this for later
+            elif not new_word in words:
                 words[new_word.lower()] = 1
                 # try to make a pandas data frame from the dict with key being word and val being its count
             else:
@@ -91,11 +99,11 @@ def scrape(num):
             next_pg[0].click() #check if next button exists and click it if yes, else break the loop
             i += 1
     plotter()
-    time.sleep(20)
+    #time.sleep(20)
     driver.quit()
 
 if __name__ == '__main__':
-
+    # maybe add list of jobs to look through here
     city = input("Enter name of city to conduct search (E.g. New York): ").title()
     state = input("Enter abbreviation of state to conduct search (E.g. NY): ").upper()
     job = input("Enter name of job to search up (E.g. Data Engineer): ").upper()
