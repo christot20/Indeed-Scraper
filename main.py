@@ -16,16 +16,17 @@ import seaborn as sns
 
 
 
-from helpers import checker, scrape_amount
+from helpers import checker, scrape_amount, data_jobs
 
 #PATH = "D:\Indeed-Scraper\chromedriver.exe"
 words = {}
+salaries = {}
 nltk.download('stopwords')
 
-def plotter():
+def plotter(dict):
     #%matplotlib inline
     sns.set()
-    freqdist1 = nltk.FreqDist(words)
+    freqdist1 = nltk.FreqDist(dict)
     freqdist1.plot(25)                # have the plot give the name of the job and place its checking as its title
     #return False
 
@@ -48,6 +49,7 @@ def extract(text):
                 # list of tech skills, porgramming languages, oses, maybe just count those?
                 # list of data skills, their salaries and positions, and where they are
                 # big data job stuff, make new repo with that, keep this for later
+                #make list of jobs to search throug in helpers
             elif not new_word in words:
                 words[new_word.lower()] = 1
                 # try to make a pandas data frame from the dict with key being word and val being its count
@@ -55,14 +57,33 @@ def extract(text):
                 words[new_word.lower()] += 1
         else:
             continue
-    print(words)
+    #print(words)
     #time.sleep(10)
     #return words                       
+def sal_scrape(element):
+    if element.find_elements(By.XPATH, './/div[@class="metadata salary-snippet-container"]') == []:
+        if element.find_elements(By.XPATH, './/span[@class="estimated-salary"]') == []:
+            return False
+        else:
+            salary = element.find_elements(By.XPATH, './/span[@class="estimated-salary"]')[0].text
+            sal_extract(salary)
+    else:
+        salary = element.find_elements(By.XPATH, './/div[@class="metadata salary-snippet-container"]')[0].text
+        sal_extract(salary)
+
+def sal_extract(salary):
+    if not salary in salaries:
+        salaries[salary] = 1
+            # try to make a pandas data frame from the dict with key being word and val being its count
+    else:
+        salaries[salary] += 1
+    print(salaries)
 
 def scrape(num):
     for i in range(num):
         try: 
             WebDriverWait(driver, 4).until(EC.element_to_be_clickable((By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]')))
+            driver.find_element(By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]').click()
         except WebDriverException:
             continue
         finally:
@@ -79,9 +100,7 @@ def scrape(num):
                     title = soup.find("div", {"class":"jobsearch-JobInfoHeader-title-container"})
                     result = soup.find("div", {"id":"jobDescriptionText"})
                     print("--------------------------------")
-                    print(title.text) #changed finding the title to using bs4 scraping the job page, commented out the moving in and out of frames, check gitub for differences
-                    print(result.text) #prints text in given url
-
+                    sal_scrape(tag)
                     extract(result.text)
 
                 except WebDriverException:
@@ -91,29 +110,41 @@ def scrape(num):
                 except AttributeError:
                     print("sus")
                     #add a variable here to count how many skipped
-                    continue              
-        next_pg = driver.find_elements(By.XPATH, '//nav[@role="navigation"]//a[@aria-label="Next"]')
-        if len(next_pg) == 0:
-            break
-        else:
-            next_pg[0].click() #check if next button exists and click it if yes, else break the loop
-            i += 1
-    plotter()
+                    continue    
+        
+            try: 
+                print("hi")
+                WebDriverWait(driver, 4).until(EC.element_to_be_clickable((By.XPATH, '//nav[@role="navigation"]//a[@aria-label="Next"]')))
+                driver.find_element(By.XPATH, '//nav[@role="navigation"]//a[@aria-label="Next"]').click()
+            except WebDriverException:
+                print("bye")
+                break          
+        # if len(next_pg) == 0:
+        #     break
+        # else:
+        #     next_pg[0].click() #check if next button exists and click it if yes, else break the loop
+        #     i += 1
+    plotter(words)
+    plotter(salaries)
     #time.sleep(20)
     driver.quit()
 
 if __name__ == '__main__':
     # maybe add list of jobs to look through here
+    for i in range(len(data_jobs)):
+        print(f"{i+1}. {data_jobs[i]} ")
+
     city = input("Enter name of city to conduct search (E.g. New York): ").title()
     state = input("Enter abbreviation of state to conduct search (E.g. NY): ").upper()
     job = input("Enter name of job to search up (E.g. Data Engineer): ").upper()
     user_choice = scrape_amount()
 
     if len(state.strip()) != 2: # checks if state given is invalid
-        raise ValueError("Invalid State Received") #quit out of application/raise error
+        raise ValueError("Invalid State Received") 
     elif checker(city, state.strip()) == False:
         raise ValueError("Location Received Invalid")
-
+    elif job.title() not in data_jobs:
+        raise ValueError("Job Title Not In List of Accepted Jobs")
     # checker comes out false, raise value error as not real city, else do this
     city = city.replace(" ", "+") # used for formatting in url
     job = job.replace(" ", "+") # used for formatting in url
@@ -124,38 +155,3 @@ if __name__ == '__main__':
 
     print(driver.title) #prints out total number of jobs with that title in 100 mile radius of that city
     scrape(user_choice)
-
-        #check if there is a next button for a certian amount of times and click it
-        # for i in range(user choice)
-        # call scrape function using stuff above
-        # if next button exists
-        # click it and do stuff above again (make it a function)
-        # else break
-
-
-        #working for now, gets the title of each job listing from the iframe
-        #try to get it to click next after going through all the iframes
-        #try scraping the iframes
-
-
-
-        #print("sus") #it prints this but stops at the second tag.click()
-
-            #//div[@id="mosaic-provider-jobcards"]//section[@id="vjs-container"]//iframe[@id="vjs-container-iframe"]
-        
-
-        #find how to click each a tag
-
-        #try to find out why selenium closes automatically
-        #might be it here: https://stackoverflow.com/questions/43612340/chromedriver-closing-after-test
-
-    
-    #have selenium click on a box and bs4 scrape the section that becomes visible
-    #look up how to scrape everythong from an element in bs4 and how to click something in selenium
-    #probably gonna want to make this a function and recurse over it
-    #(if next button clicked, load new page, call scrape function, else quit with driver.quit)
-
-    #//div[@id="mosaic-provider-jobcards"]//a[@target="_blank"]  <-- xpath for getting to links
-    #https://stackoverflow.com/questions/27006698/selenium-iterating-through-groups-of-elements   how to iterate over list of these things
-
-    #driver.quit() be sure to use this at the very end when web scraping

@@ -2,6 +2,9 @@
 
 import sqlite3
 
+data_jobs = ["Data Scientist", "Data Engineer", "Data Analyst", "Data Architect", "Machine Learning Engineer",
+            "Business Intelligence Analyst", "Business Analyst", "Statistician", "Quantitative Analyst",
+            "Operations Analyst", "Marketing Analyst", "Database Administrator"]
 def checker(city, state): # check if state in state list, then check if city in state and return true if true or false if not
     sqliteConnection = sqlite3.connect('locations.db') # connect to db
     cursor = sqliteConnection.cursor() # cursor for query execution
