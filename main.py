@@ -13,6 +13,7 @@ import re
 import nltk
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
 
 
@@ -25,21 +26,51 @@ high_salaries = {}
 low_salaries = {}
 nltk.download('stopwords')
 
-def plotter(dict):                   # look to see if more values are needed in the keywords
-    #%matplotlib inline             # sort the graphs to be highest first and go down, also title the plots
-    ranges = list(dict.keys())
-    values = list(dict.values())
+def sortdict(dictionary, sorted_vals):
+    sort_dict = {}
+    for i in sorted_vals:
+        for k in dictionary.keys():
+            if dictionary[k] == i:
+                sort_dict[k] = dictionary[k]  #label the plots
+                break
+    return sort_dict
 
-    plt.bar(range(len(dict)), values, tick_label=ranges)
-    plt.show()
-
-def word_plotter(dict):
-    #%matplotlib inline
+def plotter(dicti, name):                   # look to see if more values are needed in the keywords, see if keywords are being detected
+                 # sort the graphs to be highest first and go down, also title the plots
+    sorted_values = sorted(dicti.values(), reverse=True)
+    new_dict = sortdict(dicti, sorted_values)
+    ranges = list(new_dict.keys())
+    values = list(new_dict.values())
     sns.set_theme()
-    freqdist1 = nltk.FreqDist(dict)
-    #plt.xticks(rotation=60)
-    freqdist1.plot(25)                # have the plot give the name of the job and place its checking as its title
-    #return False
+    plt.title(name)
+    plt.xlabel("Salary Ranges")
+    plt.ylabel("Counts")
+    plt.bar(range(len(new_dict)), values, tick_label=ranges) #try to make word plots like these and find a way to cut how many words shown
+    plt.show()                                                      #reverse plot and shit for freq dist
+
+def word_plotter(dicti):
+    # #%matplotlib inline
+    # #vals = sorted(dict, key=dict.get, reverse=True)
+    # sns.set_theme()
+    # freqdist1 = nltk.FreqDist(dicti)
+    # #plt.xticks(rotation=60)
+    # freqdist1.plot(25)                # have the plot give the name of the job and place its checking as its title
+    # #return False
+    sorted_values = sorted(dicti.values(), reverse=True)
+    new_dict = sortdict(dicti, sorted_values)
+    ranges = list(new_dict.keys())
+    values = list(new_dict.values())
+    sns.set_theme()
+    plt.xlim(1, 25)
+    plt.bar(range(len(new_dict)), values, tick_label=ranges) #try to make word plots like these and find a way to cut how many words shown
+    plt.show() 
+
+def kword_extract(kword):
+    if kword in key_words:
+        if not kword in freq_key_words:  #was fixing up keywords, mabe make function?
+            freq_key_words[kword] = 1    #more stuff to do above in plotter comments
+        else:
+            freq_key_words[kword] += 1
 
 #https://stackoverflow.com/questions/1692388/python-list-of-dict-if-exists-increment-a-dict-value-if-not-append-a-new-dic
 def extract(text):
@@ -56,17 +87,13 @@ def extract(text):
                 continue 
             elif not new_word in words:
                 words[new_word.lower()] = 1
+                kword_extract(new_word.lower())
                 # try to make a pandas data frame from the dict with key being word and val being its count
             else:
                 words[new_word.lower()] += 1
+                kword_extract(new_word.lower())
         else:
             continue 
-    for kwords in word:
-        if kwords.lower() in key_words:
-            if not kwords in freq_key_words:
-                freq_key_words[kwords.upper()] = 1
-            else:
-                freq_key_words[kwords.upper()] += 1
 def sal_dict(salary, sdict):
     if not salary in sdict:
         sdict[salary] = 1
@@ -168,7 +195,7 @@ def scrape(num):
                     tag.click()
                     element = driver.find_element(By.XPATH, '//div[@id="mosaic-provider-jobcards"]//section[@id="vjs-container"]/iframe[@title="Selected Job Details"]') #maybe make this elements instead of element and                                                                                                                 #do what u did for checking if there is next button (if cnditional)
                     url = element.get_attribute("src")
-                    html = urllib.request.urlopen(url)
+                    html = urllib.request.urlopen(url, timeout = 10)
                     soup = BeautifulSoup(html, "html.parser")
                     title = soup.find("div", {"class":"jobsearch-JobInfoHeader-title-container"})
                     result = soup.find("div", {"id":"jobDescriptionText"})
@@ -202,8 +229,8 @@ def scrape(num):
         #     i += 1
     word_plotter(words)
     word_plotter(freq_key_words)
-    plotter(high_salaries)
-    plotter(low_salaries)
+    plotter(high_salaries, "Salary High End")
+    plotter(low_salaries, "Salary Low End")
     #time.sleep(20)
     driver.quit()
 
