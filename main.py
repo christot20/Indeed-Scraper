@@ -49,7 +49,7 @@ def plotter(dicti, name):                   # look to see if more values are nee
     plt.bar(range(len(new_dict)), values, tick_label=ranges) #try to make word plots like these and find a way to cut how many words shown
     plt.show()                                                      #reverse plot and shit for freq dist
 
-def word_plotter(dicti):
+def word_plotter(dicti, name):
     # #%matplotlib inline
     # #vals = sorted(dict, key=dict.get, reverse=True)
     # sns.set_theme()
@@ -64,11 +64,10 @@ def word_plotter(dicti):
     sns.set_theme()
     # plt.xlabel('Words', fontsize=12)
     # plt.ylabel('Counts', fontsize=16)
+    plt.title(name)
     plt.bar(range(len(new_dict)), values, tick_label=ranges) #try to make word plots like these and find a way to cut how many words shown
     plt.xlim(1, 10) #try to space out values somehow, or rotate them at least
     plt.xticks(rotation = 25)
-    # Remove tool bar (upper bar)
-    #plt.canvas.window().statusBar().setVisible(False) # Remove status bar (bottom bar)
     plt.show() 
 
 def kword_extract(kword):
@@ -195,11 +194,26 @@ def scrape(num):
             for tag in driver.find_elements(By.XPATH, '//div[@id="mosaic-provider-jobcards"]/a'): #iterates over every link
                 #tag.click()
                 #time.sleep(2) 
-                WebDriverWait(driver, 10).until(EC.visibility_of((tag)))
-                WebDriverWait(driver, 5).until(EC.element_to_be_clickable((tag)))
-                try:
-                    time.sleep(.5)
+                # handles = driver.window_handles
+                # if len(handles) > 1:
+                #     driver.switch_to.window(handles[1]) #test to see if u keep getting hi or not
+                #     driver.close()
+                #     driver.switch_to.window(handles[0])
+                # else:
+                #     continue
+                # WebDriverWait(driver, 10).until(EC.visibility_of((tag)))                       #issue wirth skipping pages seem to stem off of contiue statemetns, watch them
+                # WebDriverWait(driver, 5).until(EC.element_to_be_clickable((tag)))            #also might want to make range of search to be 25 miles at most so that locations are correct
+                try:                                                                            #was getting ct places for NY
+                    WebDriverWait(driver, 10).until(EC.visibility_of((tag)))                       #issue wirth skipping pages seem to stem off of contiue statemetns, watch them
+                    WebDriverWait(driver, 5).until(EC.element_to_be_clickable((tag)))              #also try to redirect yourself if u go to different page by accident
+                    #time.sleep(1)
                     tag.click()
+                    time.sleep(2) #maybe use webdriver.wait? use this to close any tabs that get opened by accident
+                    handles = driver.window_handles
+                    if len(handles) > 1:
+                        driver.switch_to.window(handles[1]) #test to see if u keep getting hi or not
+                        driver.close()
+                        driver.switch_to.window(handles[0])
                     element = driver.find_element(By.XPATH, '//div[@id="mosaic-provider-jobcards"]//section[@id="vjs-container"]/iframe[@title="Selected Job Details"]') 
                     url = element.get_attribute("src")
                     html = requests.get(url).text #win 10060 error, see how to fix it, test this out on opensuse machine
@@ -223,6 +237,7 @@ def scrape(num):
         
             try: 
                 print("hi")
+                #WebDriverWait(driver, 4).until(EC.visibility_of((By.XPATH, '//nav[@role="navigation"]//a[@aria-label="Next"]')))
                 WebDriverWait(driver, 4).until(EC.element_to_be_clickable((By.XPATH, '//nav[@role="navigation"]//a[@aria-label="Next"]')))
                 driver.find_element(By.XPATH, '//nav[@role="navigation"]//a[@aria-label="Next"]').click()
                 i += 1
@@ -234,8 +249,8 @@ def scrape(num):
         # else:
         #     next_pg[0].click() #check if next button exists and click it if yes, else break the loop
         #     i += 1
-    word_plotter(words)
-    word_plotter(freq_key_words)
+    word_plotter(words, "General Word Frequency")
+    word_plotter(freq_key_words, "KeyWord Frequency")
     plotter(high_salaries, "Salary High End")
     plotter(low_salaries, "Salary Low End")
     #time.sleep(20)
