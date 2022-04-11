@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import time
-import urllib.request 
+#import urllib2
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
@@ -61,8 +61,8 @@ def word_plotter(dicti):
     ranges = list(new_dict.keys())
     values = list(new_dict.values())
     sns.set_theme()
-    plt.xlim(1, 25)
     plt.bar(range(len(new_dict)), values, tick_label=ranges) #try to make word plots like these and find a way to cut how many words shown
+    plt.xlim(1, 10) #try to space out values somehow, or rotate them at least
     plt.show() 
 
 def kword_extract(kword):
@@ -192,11 +192,12 @@ def scrape(num):
                 WebDriverWait(driver, 10).until(EC.visibility_of((tag)))
                 WebDriverWait(driver, 5).until(EC.element_to_be_clickable((tag)))
                 try:
+                    time.sleep(2)
                     tag.click()
-                    element = driver.find_element(By.XPATH, '//div[@id="mosaic-provider-jobcards"]//section[@id="vjs-container"]/iframe[@title="Selected Job Details"]') #maybe make this elements instead of element and                                                                                                                 #do what u did for checking if there is next button (if cnditional)
+                    element = driver.find_element(By.XPATH, '//div[@id="mosaic-provider-jobcards"]//section[@id="vjs-container"]/iframe[@title="Selected Job Details"]') 
                     url = element.get_attribute("src")
-                    html = urllib.request.urlopen(url, timeout = 10)
-                    soup = BeautifulSoup(html, "html.parser")
+                    html = requests.get(url).text #win 10060 error, see how to fix it, test this out on opensuse machine
+                    soup = BeautifulSoup(html, "html.parser")                                               #also find a way to get it to close a popup each time, look at loop and what u used b4
                     title = soup.find("div", {"class":"jobsearch-JobInfoHeader-title-container"})
                     result = soup.find("div", {"id":"jobDescriptionText"})
                     print("--------------------------------")
