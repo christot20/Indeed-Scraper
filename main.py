@@ -185,8 +185,9 @@ def sal_scrape(element):
 
 def scrape(num):
     for i in range(num):
+        page_title = driver.title
         try: 
-            WebDriverWait(driver, 6).until(EC.element_to_be_clickable((By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]')))
+            WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]')))
             driver.find_element(By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]').click()
         except WebDriverException:
             continue
@@ -203,17 +204,24 @@ def scrape(num):
                 #     continue
                 # WebDriverWait(driver, 10).until(EC.visibility_of((tag)))                       #issue wirth skipping pages seem to stem off of contiue statemetns, watch them
                 # WebDriverWait(driver, 5).until(EC.element_to_be_clickable((tag)))            #also might want to make range of search to be 25 miles at most so that locations are correct
-                try:                                                                            #was getting ct places for NY
+                try:                                                                        #was getting ct places for NY
                     WebDriverWait(driver, 10).until(EC.visibility_of((tag)))                       #issue wirth skipping pages seem to stem off of contiue statemetns, watch them
                     WebDriverWait(driver, 5).until(EC.element_to_be_clickable((tag)))              #also try to redirect yourself if u go to different page by accident
                     #time.sleep(1)
                     tag.click()
-                    time.sleep(2) #maybe use webdriver.wait? use this to close any tabs that get opened by accident
+                    #time.sleep(2) #maybe use webdriver.wait? use this to close any tabs that get opened by accident
+                    try: 
+                        WebDriverWait(driver, 1).until(EC.element_to_be_clickable((By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]')))
+                        driver.find_element(By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]').click()
+                    except WebDriverException:
+                        pass
                     handles = driver.window_handles
                     if len(handles) > 1:
                         driver.switch_to.window(handles[1]) #test to see if u keep getting hi or not
                         driver.close()
                         driver.switch_to.window(handles[0])
+                    elif driver.title != page_title:
+                        driver.back()
                     element = driver.find_element(By.XPATH, '//div[@id="mosaic-provider-jobcards"]//section[@id="vjs-container"]/iframe[@title="Selected Job Details"]') 
                     url = element.get_attribute("src")
                     html = requests.get(url).text #win 10060 error, see how to fix it, test this out on opensuse machine
