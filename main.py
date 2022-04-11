@@ -25,6 +25,7 @@ freq_key_words = {}
 high_salaries = {}
 low_salaries = {}
 nltk.download('stopwords')
+plt.rcParams['toolbar'] = 'None'
 
 def sortdict(dictionary, sorted_vals):
     sort_dict = {}
@@ -61,8 +62,13 @@ def word_plotter(dicti):
     ranges = list(new_dict.keys())
     values = list(new_dict.values())
     sns.set_theme()
+    # plt.xlabel('Words', fontsize=12)
+    # plt.ylabel('Counts', fontsize=16)
     plt.bar(range(len(new_dict)), values, tick_label=ranges) #try to make word plots like these and find a way to cut how many words shown
     plt.xlim(1, 10) #try to space out values somehow, or rotate them at least
+    plt.xticks(rotation = 25)
+    # Remove tool bar (upper bar)
+    #plt.canvas.window().statusBar().setVisible(False) # Remove status bar (bottom bar)
     plt.show() 
 
 def kword_extract(kword):
@@ -192,7 +198,7 @@ def scrape(num):
                 WebDriverWait(driver, 10).until(EC.visibility_of((tag)))
                 WebDriverWait(driver, 5).until(EC.element_to_be_clickable((tag)))
                 try:
-                    time.sleep(2)
+                    time.sleep(.5)
                     tag.click()
                     element = driver.find_element(By.XPATH, '//div[@id="mosaic-provider-jobcards"]//section[@id="vjs-container"]/iframe[@title="Selected Job Details"]') 
                     url = element.get_attribute("src")
