@@ -22,7 +22,8 @@ key_words = ["python","sql","mysql","postgresql", "nosql","mongodb","tableau","e
             "sql database","scripting","dbms","data models","security","performance","scalability","data recovery","reliabilty",
             "migration","data migration","monitor","management systems","relational database","cloud","mining","data mining",
             "predictive modeling","natrual language processing","nltk","nlp","agile","data structures","hyposthesis testing",
-            "optimization","predictive models","kafka","weka","apiori","apiori algorithm"]
+            "optimization","predictive models","kafka","weka","apiori","apiori algorithm", "oop","object oriented", "b.s.", "m.s.",
+            "phd.","computer science","solid","kiss","testing", "flink", "sqoop","flume","javascript","computer vision","pipelines"]
 
 def sal_assigner_less(sal):
     value = ""

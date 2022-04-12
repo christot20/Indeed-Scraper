@@ -187,7 +187,7 @@ def scrape(num):
     for i in range(num):
         page_title = driver.title
         try: 
-            WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]')))
+            WebDriverWait(driver, 4).until(EC.element_to_be_clickable((By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]')))
             driver.find_element(By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]').click()
         except WebDriverException:
             continue
@@ -285,7 +285,7 @@ if __name__ == '__main__':
     job = job.replace(" ", "+") # used for formatting in url
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install())) # update to date webdriver installer
-    driver.get(f"https://www.indeed.com/jobs?q={job}&l={city.upper()}%2C+{state.strip()}&radius=100") #format indeed link
+    driver.get(f"https://www.indeed.com/jobs?q={job}&l={city.upper()}%2C+{state.strip()}&radius=25") #format indeed link
     driver.maximize_window()
 
     print(driver.title) #prints out total number of jobs with that title in 100 mile radius of that city
