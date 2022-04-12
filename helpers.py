@@ -15,7 +15,7 @@ key_words = ["python","sql","mysql","postgresql", "nosql","mongodb","tableau","e
             "semi-supervised learning","reinforcement learning","linear regression","logistic regression","decision tree",
             "svm algorithm","naive bayes algorithm","knn algorithm","knn","svm","support vector machine","naive bayes","k-means",
             "random forest","random forest algorithm","dimensionality reduction","gradient boosting","adaboosting",
-            "sklearn","scikit-learn","scala","hpcc","storm","cloudera","rapidminer","spss","docker","kubernetes","mapreduce",
+            "sklearn","scikit-learn","scikit learn","scikit","scala","hpcc","storm","cloudera","rapidminer","spss","docker","kubernetes","mapreduce",
             "cassandra","data transformation","hevo data","matillion","etl","pentaho data integration","talend","infosphere datastage",
             "data ingestion","apache","data warehousing","aws","aws glue","stitch","data buffering","kinesis","redis cache",
             "redis","GCP","azure","openstack","openshift","qlik","tibco spotfire","plotly","coding","golang","hbase","sql databases",
@@ -23,7 +23,9 @@ key_words = ["python","sql","mysql","postgresql", "nosql","mongodb","tableau","e
             "migration","data migration","monitor","management systems","relational database","cloud","mining","data mining",
             "predictive modeling","natrual language processing","nltk","nlp","agile","data structures","hyposthesis testing",
             "optimization","predictive models","kafka","weka","apiori","apiori algorithm", "oop","object oriented", "b.s.", "m.s.",
-            "phd.","computer science","solid","kiss","testing", "flink", "sqoop","flume","javascript","computer vision","pipelines"]
+            "phd.","computer science","solid","kiss","testing", "flink", "sqoop","flume","javascript","computer vision","pipelines",
+            "segmentation","A/B testing","power analyses","keras","scalability","binary classification","multiclass classification",
+            "regression","searching"]
 
 def sal_assigner_less(sal):
     value = ""
