@@ -25,7 +25,7 @@ key_words = ["python","sql","mysql","postgresql", "nosql","mongodb","tableau","e
             "optimization","predictive models","kafka","weka","apiori","apiori algorithm", "oop","object oriented", "b.s.", "m.s.",
             "phd.","computer science","solid","kiss","testing", "flink", "sqoop","flume","javascript","computer vision","pipelines",
             "segmentation","A/B testing","power analyses","keras","scalability","binary classification","multiclass classification",
-            "regression","searching"]
+            "regression","searching","ssis","powerbi"]
 
 def sal_assigner_less(sal):
     value = ""
