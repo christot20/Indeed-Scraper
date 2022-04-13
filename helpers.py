@@ -6,8 +6,8 @@ data_jobs = ["Data Scientist", "Data Engineer", "Data Analyst", "Data Architect"
 
 key_words = ["python","sql","mysql","postgresql", "nosql","mongodb","tableau","excel","ai","artificial intelligence","ml","machine learning",
             "r","matlab","data visualization","data cleaning","linear algebra","calculus","statistics","pytorch",
-            "tensorflow","jupyter notebook","pandas","numpy","matplotlib","seaborn","scipy","spreadsheets","writing",
-            "speaking","communication","neural net","neural network", "neural networks","models","modelling","algorithms",
+            "tensorflow","jupyter notebook","pandas","numpy","matplotlib","seaborn","scipy","spreadsheets",
+            "ci","cd","neural net","neural network", "neural networks","models","modelling","algorithms",
             "programming","mathematics","ci/cd","continuous integration","continuous deployment", "continuous delivery",
             "bash","powershell","windows","linux","unix","git","version control","deep learning","automation","data wrangling",
             "big data","processing","c","c++","c/c++","perl","java","sas","hadoop","spark","hive","pig","probability",
@@ -26,6 +26,13 @@ key_words = ["python","sql","mysql","postgresql", "nosql","mongodb","tableau","e
             "phd.","computer science","solid","kiss","testing", "flink", "sqoop","flume","javascript","computer vision","pipelines",
             "segmentation","A/B testing","power analyses","keras","scalability","binary classification","multiclass classification",
             "regression","searching","ssis","powerbi"]
+
+def titlefixer(text):
+    for i in range(len(text)):
+        ex_len = len(text) - i
+        if text[i: i + ex_len] == "- job post":
+            new_title = text[0 : i-1]
+            return new_title
 
 def sortdict(dictionary, sorted_vals):
     sort_dict = {}
