@@ -27,6 +27,16 @@ key_words = ["python","sql","mysql","postgresql", "nosql","mongodb","tableau","e
             "segmentation","A/B testing","power analyses","keras","scalability","binary classification","multiclass classification",
             "regression","searching","ssis","powerbi"]
 
+def sortdict(dictionary, sorted_vals):
+    sort_dict = {}
+    for i in sorted_vals:
+        for k in dictionary.keys():
+            if dictionary[k] == i:
+                sort_dict[k] = dictionary[k]  #label the plots
+                #break
+    #print(sort_dict)
+    return sort_dict
+
 def sal_assigner_less(sal):
     value = ""
     for j in range(len(sal)):

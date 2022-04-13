@@ -18,7 +18,7 @@ import numpy as np
 
 
 
-from helpers import checker, sal_assigner, scrape_amount, sal_range, hour_range, sal_range_est, sal_range_month, sal_assigner_less, data_jobs, key_words
+from helpers import checker, sal_assigner, scrape_amount, sal_range, hour_range, sal_range_est, sal_range_month, sal_assigner_less, sortdict, data_jobs, key_words
 
 #PATH = "D:\Indeed-Scraper\chromedriver.exe"
 words = {}
@@ -27,16 +27,6 @@ high_salaries = {}
 low_salaries = {}
 nltk.download('stopwords')
 plt.rcParams['toolbar'] = 'None'
-
-def sortdict(dictionary, sorted_vals):
-    sort_dict = {}
-    for i in sorted_vals:
-        for k in dictionary.keys():
-            if dictionary[k] == i:
-                sort_dict[k] = dictionary[k]  #label the plots
-                #break
-    #print(sort_dict)
-    return sort_dict
 
 def plotter(dicti, name):                   # look to see if more values are needed in the keywords, see if keywords are being detected
                  # sort the graphs to be highest first and go down, also title the plots
