@@ -151,6 +151,32 @@ def checker(city, state): # check if state in state list, then check if city in 
         return True
     return False # return a no good
 
+def sql_size():
+    sqliteConnection = sqlite3.connect("locations.db") # connect to db
+    cursor = sqliteConnection.cursor() # cursor for query execution
+    cursor.execute("SELECT COUNT(*) FROM Jobs_Salaries")
+    id = cursor.fetchone()[0]
+    cursor.close()
+    sqliteConnection.close()
+    return int(id)
+
+def sql_add(values):
+    try:
+        sql = """INSERT INTO Jobs_Salaries(id, job_list_name, job_category, company_name,
+                job_city, job_state, indeed_salary, salary_range_high, salary_range_low) 
+                VALUES(?,?,?,?,?,?,?,?,?)"""
+        sqliteConnection = sqlite3.connect("locations.db") # connect to db
+        cursor = sqliteConnection.cursor() # cursor for query execution
+        cursor.execute(sql, values) 
+        sqliteConnection.commit()
+        print("Successfully added to DB")
+        cursor.close()
+    except sqlite3.Error as error:
+        print("Failed to insert data into sqlite table", error)
+    finally:
+        if sqliteConnection:
+            sqliteConnection.close()
+
 #https://stackoverflow.com/questions/33112377/python-verifying-if-input-is-int-and-greater-than-0
 def scrape_amount():
     while True:

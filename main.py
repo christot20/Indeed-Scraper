@@ -18,7 +18,7 @@ import numpy as np
 
 
 
-from helpers import checker, sal_assigner, scrape_amount, sal_range, hour_range, sal_range_est, sal_range_month, sal_assigner_less, sortdict, titlefixer, data_jobs, key_words
+from helpers import checker, sal_assigner, scrape_amount, sal_range, hour_range, sal_range_est, sal_range_month, sal_assigner_less, sortdict, titlefixer, sql_add, sql_size, data_jobs, key_words
 
 #PATH = "D:\Indeed-Scraper\chromedriver.exe"
 words = {}
@@ -227,6 +227,7 @@ def scrape(num, city, state, job):
                     soup = BeautifulSoup(html, "html.parser")                                               #also find a way to get it to close a popup each time, look at loop and what u used b4
                     title = soup.find("div", {"class":"jobsearch-JobInfoHeader-title-container"})
                     result = soup.find("div", {"id":"jobDescriptionText"})
+                    comp_title = soup.find_all("div", {"class":"icl-u-lg-mr--sm icl-u-xs-mr--xs"})
                     high, low, raw = sal_scrape(tag) #get the high and low values here and incorporate sql db adding here
                     extract(result.text) #also try to get the actual job title and remove the job post stuff from it
                     #check if driver.back and driver title stuff works
@@ -236,10 +237,15 @@ def scrape(num, city, state, job):
                     print(title.text) #remove  - job post from this
                     new_title = titlefixer(title.text)
                     print(new_title)
+                    print(comp_title[1].text) #company titles
                     print(raw) #actual salary text element
                     print(f"{high} {low}") #sql integration and getting actual values of salary?
-                    print("--------------------------------")
-                    
+                    print("--------------------------------") #maybe change paramters for size/search preferences?, like 25 miles, ort by rekevance, etc
+                    id = sql_size()
+                    print(id)
+                    values = (id, job, new_title, comp_title[1].text, city, state, raw, high, low)
+                    sql_add(values)
+                    #get job company name
                 except WebDriverException:
                     print("rer")
                     #add a variable here to count how many skipped
@@ -291,7 +297,7 @@ if __name__ == '__main__':
     job = job.replace(" ", "+") # used for formatting in url
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install())) # update to date webdriver installer
-    driver.get(f"https://www.indeed.com/jobs?q={job}&l={city.upper()}%2C+{state.strip()}&radius=25") #format indeed link
+    driver.get(f"https://www.indeed.com/jobs?q={job}&l={city.upper()}%2C+{state.strip()}&radius=0") #format indeed link
     driver.maximize_window()
 
     print(driver.title) #prints out total number of jobs with that title in 100 mile radius of that city
