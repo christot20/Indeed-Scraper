@@ -160,15 +160,27 @@ def sql_size():
     sqliteConnection.close()
     return int(id)
 
-def sql_add(values):
+def sql_add(values, name):
     try:
-        sql = """INSERT INTO Jobs_Salaries(id, job_list_name, job_category, company_name,
-                job_city, job_state, indeed_salary, salary_range_high, salary_range_low) 
-                VALUES(?,?,?,?,?,?,?,?,?)"""
         sqliteConnection = sqlite3.connect("locations.db") # connect to db
         cursor = sqliteConnection.cursor() # cursor for query execution
-        cursor.execute(sql, values) 
-        sqliteConnection.commit()
+        if len(values) > 5:
+            sql = """INSERT INTO Jobs_Salaries(id, job_list_name, job_category, company_name,
+                    job_city, job_state, indeed_salary, salary_range_high, salary_range_low) 
+                    VALUES(?,?,?,?,?,?,?,?,?)"""
+            cursor.execute(sql, values) 
+            sqliteConnection.commit()
+        else:
+            if name == "freq words":
+                sql = """INSERT INTO Jobs_Keywords(job_category, job_city, job_state, 
+                        word, frequency) VALUES(?,?,?,?,?)"""
+                cursor.execute(sql, values) 
+                sqliteConnection.commit()
+            else:
+                sql = """INSERT INTO Jobs_General_Words(job_category, job_city, job_state, 
+                        word, frequency) VALUES(?,?,?,?,?)"""
+                cursor.execute(sql, values) 
+                sqliteConnection.commit()
         print("Successfully added to DB")
         cursor.close()
     except sqlite3.Error as error:
@@ -176,6 +188,15 @@ def sql_add(values):
     finally:
         if sqliteConnection:
             sqliteConnection.close()
+
+def sql_word_add(name, dicti, job, city, state):
+    sorted_values = sorted(dicti.values(), reverse=True)
+    new_dict = sortdict(dicti, sorted_values)
+    for k, v in new_dict.items():
+        word = k
+        frequency = v
+        values = (job, city, state, word, frequency) # is able to add words to freq db
+        sql_add(values, name)
 
 #https://stackoverflow.com/questions/33112377/python-verifying-if-input-is-int-and-greater-than-0
 def scrape_amount():

@@ -18,7 +18,7 @@ import numpy as np
 
 
 
-from helpers import checker, sal_assigner, scrape_amount, sal_range, hour_range, sal_range_est, sal_range_month, sal_assigner_less, sortdict, titlefixer, sql_add, sql_size, data_jobs, key_words
+from helpers import checker, sal_assigner, scrape_amount, sal_range, hour_range, sal_range_est, sal_range_month, sal_assigner_less, sortdict, titlefixer, sql_add, sql_size, sql_word_add, data_jobs, key_words
 
 #PATH = "D:\Indeed-Scraper\chromedriver.exe"
 words = {}
@@ -244,7 +244,7 @@ def scrape(num, city, state, job):
                     id = sql_size()
                     print(id)
                     values = (id, job, new_title, comp_title[1].text, city, state, raw, high, low)
-                    sql_add(values)
+                    sql_add(values, "salaries")
                     #get job company name
                 except WebDriverException:
                     print("rer")
@@ -269,11 +269,13 @@ def scrape(num, city, state, job):
         # else:
         #     next_pg[0].click() #check if next button exists and click it if yes, else break the loop
         #     i += 1
+    sql_word_add("freq words", freq_key_words, job, city, state)
+    sql_word_add("words", words, job, city, state)
     word_plotter(words, "General Word Frequency")
     word_plotter(freq_key_words, "KeyWord Frequency")
     plotter(high_salaries, "Salary High End")
-    plotter(low_salaries, "Salary Low End")
-    #time.sleep(20)
+    plotter(low_salaries, "Salary Low End") #double check everything is working and you did everything u want
+    #time.sleep(20)                    start doing scrapes of 20 for locations and jobs and tableau them
     driver.quit()
 
 if __name__ == '__main__':
