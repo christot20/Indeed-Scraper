@@ -190,6 +190,7 @@ def scrape(num, city, state, job):
         except WebDriverException:
             continue
         finally:
+            page_title = driver.title #check if this works
             for tag in driver.find_elements(By.XPATH, '//div[@id="mosaic-provider-jobcards"]/a'): #iterates over every link
                 #tag.click()
                 #time.sleep(2) 
@@ -202,8 +203,7 @@ def scrape(num, city, state, job):
                 #     continue
                 # WebDriverWait(driver, 10).until(EC.visibility_of((tag)))                       #issue wirth skipping pages seem to stem off of contiue statemetns, watch them
                 # WebDriverWait(driver, 5).until(EC.element_to_be_clickable((tag)))            #also might want to make range of search to be 25 miles at most so that locations are correct
-                try:   
-                    page_title = driver.title #check if this works                                                                    #was getting ct places for NY
+                try:                                                                       #was getting ct places for NY
                     WebDriverWait(driver, 10).until(EC.visibility_of((tag)))                       #issue wirth skipping pages seem to stem off of contiue statemetns, watch them
                     WebDriverWait(driver, 5).until(EC.element_to_be_clickable((tag)))              #also try to redirect yourself if u go to different page by accident
                     #time.sleep(1)
@@ -219,7 +219,8 @@ def scrape(num, city, state, job):
                         driver.switch_to.window(handles[1]) #test to see if u keep getting hi or not
                         driver.close()
                         driver.switch_to.window(handles[0])
-                    elif driver.title != page_title:
+                    WebDriverWait(driver, 1).until(EC.title_is(page_title))
+                    if driver.title != page_title:
                         driver.back()
                     element = driver.find_element(By.XPATH, '//div[@id="mosaic-provider-jobcards"]//section[@id="vjs-container"]/iframe[@title="Selected Job Details"]') 
                     url = element.get_attribute("src")
