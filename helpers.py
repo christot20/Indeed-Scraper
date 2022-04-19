@@ -201,7 +201,7 @@ def sql_word_add(name, dicti, job, city, state):
 #https://stackoverflow.com/questions/33112377/python-verifying-if-input-is-int-and-greater-than-0
 def scrape_amount():
     while True:
-        amount = input("Enter how many pages to scrape: ")
+        amount = input("Enter how many jobs do you want to scrape: ")
         try:
             val = int(amount)
             if val >= 0:
