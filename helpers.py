@@ -184,7 +184,7 @@ def sql_add(values, name):
         print("Successfully added to DB")
         cursor.close()
     except sqlite3.Error as error:
-        print("Failed to insert data into sqlite table", error)
+        print("Failed to insert data into sqlite table: ", error)
     finally:
         if sqliteConnection:
             sqliteConnection.close()
@@ -211,7 +211,3 @@ def scrape_amount():
         except ValueError:
             print("Amount must be a number, try again")
     return val
-
-# might want to make a sql script to make a new table to hold some of the results you get from scraping
-# columns: job, location (city, state), word, frequency, date (maybe, look at how u used it in CS50 web app)
-# make learn to use tableau for this stuff here ^ ? (alex the analyst vid on it, analyst porfolio project part 2)
