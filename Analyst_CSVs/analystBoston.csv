@@ -1,0 +1,76 @@
+id,job_category,job_list_name,company_name,job_city,job_state,indeed_salary,salary_range_high,salary_range_low
+225,"Data Integration Analyst","DATA ANALYST","Atrium Staffing",Boston,MA,"$90,000 - $100,000 a year",100K+,75K+
+226,"Analyst, Data and Analysis","DATA ANALYST",Digitas,Boston,MA,"Estimated $52.2K – $66K a year",50K+,50K+
+227,"SQL Developer/Data Analyst/ BI Roles","DATA ANALYST","PCS GLOBAL TECH",Boston,MA,"$60,000 - $70,000 a year",50K+,50K+
+228,"Data Analyst I","DATA ANALYST","Massachusetts General Hospital(MGH)",Boston,MA,None,None,None
+229,"Healthcare Data Analyst I-DACCI","DATA ANALYST","Boston Children's Hospital",Boston,MA,None,None,None
+230,"Stroke Data Analyst - Comprehensive Stroke Center","DATA ANALYST","Tufts Medical Center",Boston,MA,None,None,None
+231,"Entry Level Data Analyst","DATA ANALYST","PCS GLOBAL TECH",Boston,MA,"$65,000 - $70,000 a year",50K+,50K+
+232,"Data Analyst Entry Level","DATA ANALYST","PCS GLOBAL TECH",Boston,MA,"$60,000 - $70,000 a year",50K+,50K+
+233,"BI Data Quality Analyst I","DATA ANALYST","The Boston Beer Company",Boston,MA,"Estimated $49.6K – $62.8K a year",50K+,50K-
+234,"Contract Data Analyst, DACCI","DATA ANALYST","Boston Children's Hospital",Boston,MA,None,None,None
+235,"HR Data Analyst","DATA ANALYST","Commonwealth of MA - Health & Human Services",Boston,MA,"$66,000 - $96,500 a year",75K+,50K+
+236,"Data Analyst","DATA ANALYST","Dana-Farber Cancer Institute",Boston,MA,"Estimated $65K – $82.4K a year",75K+,50K+
+237,"Data Analyst","DATA ANALYST",Flexcar,Boston,MA,None,None,None
+238,"Data Analyst I","DATA ANALYST","T1D EXCHANGE INC",Boston,MA,"Estimated $58K – $73.4K a year",50K+,50K+
+239,"Data Analyst/Master Data Coordinator","DATA ANALYST","Procter & Gamble",Boston,MA,None,None,None
+240,"Data Analyst, Media Analytics","DATA ANALYST","Procter & Gamble",Boston,MA,None,None,None
+241,"Data Analyst III","DATA ANALYST","defi AUTO, LLC",Boston,MA,"Estimated $70.9K – $89.7K a year",75K+,50K+
+242,"Clinical Trial Data Analyst","DATA ANALYST","Brigham & Women's Hospital(BWH)",Boston,MA,None,None,None
+243,"Data Analyst","DATA ANALYST","Salary Finance US",Boston,MA,"Estimated $83.5K – $106K a year",100K+,75K+
+244,"BI Analyst","DATA ANALYST","EnergySage, Inc.",Boston,MA,"Estimated $69.5K – $87.9K a year",75K+,50K+
+245,"Analyst, Data Science","DATA ANALYST",Mediahub,Boston,MA,"Estimated $73.3K – $92.9K a year",75K+,50K+
+246,"Data Analyst","DATA ANALYST","Commonwealth Care Alliance",Boston,MA,None,None,None
+247,"Investment Data Analyst","DATA ANALYST","Fidelity Investments",Boston,MA,None,None,None
+248,"Data Analyst","DATA ANALYST","GSN Games",Boston,MA,"Estimated $68K – $86.2K a year",75K+,50K+
+249,"Data Analyst","DATA ANALYST",LogRocket,Boston,MA,"Estimated $78K – $98.8K a year",75K+,75K+
+250,"Data Analyst, Growth","DATA ANALYST","West CAP",Boston,MA,"Estimated $75.8K – $96K a year",75K+,75K+
+251,"Customer Data Analyst (Remote)","DATA ANALYST",Pearson,Boston,MA,None,None,None
+252,"Data Analyst","DATA ANALYST","Northeastern University",Boston,MA,None,None,None
+253,"Senior Data Analyst","DATA ANALYST","The Greater Boston Food",Boston,MA,"Estimated $94.9K – $120K a year",100K+,75K+
+254,"Data Analyst - Customer Obsession","DATA ANALYST","Aura Sub, LLC",Boston,MA,"Estimated $93.2K – $118K a year",100K+,75K+
+255,"Data Analyst: Visualization and Reporting","DATA ANALYST",Well,Boston,MA,None,None,None
+256,"Analyst, Clinical Quality Analytics","DATA ANALYST","Boston Medical Center",Boston,MA,None,None,None
+257,"Data Analyst (SY21-22)","DATA ANALYST","Boston Public Schools Office of Human Capital",Boston,MA,None,None,None
+258,"Data Analyst Junior","DATA ANALYST","Extreme Event Solutions",Boston,MA,"Estimated $55.3K – $70.1K a year",50K+,50K+
+259,"Healthcare Data Integration Analyst","DATA ANALYST",Panalgo,Boston,MA,"Estimated $59.9K – $75.9K a year",75K+,50K+
+260,"Data Analyst","DATA ANALYST","Acadian Asset Management",Boston,MA,"Estimated $80.5K – $102K a year",100K+,75K+
+261,"Data Integrity Analyst","DATA ANALYST",Wellframe,Boston,MA,"Estimated $59.3K – $75.1K a year",75K+,50K+
+262,"Data Analyst (Hybrid/Remote)","DATA ANALYST",Centerfield,Boston,MA,"Estimated $58.3K – $73.9K a year",50K+,50K+
+263,"Data Analyst","DATA ANALYST","Geode Capital Management",Boston,MA,"Estimated $76.6K – $97K a year",75K+,75K+
+264,"Data Management Analyst - BI and Analytics Products ( Remote)","DATA ANALYST",JLL,Boston,MA,None,None,None
+265,"Data Analyst","DATA ANALYST","Piper Companies",Boston,MA,"$75,000 - $105,000 a year",100K+,75K+
+266,"Business Data Analyst","DATA ANALYST","Triverus Consulting",Boston,MA,"Estimated $82.2K – $104K a year",100K+,75K+
+267,"Data Intelligence Analyst","DATA ANALYST","Natixis Investment Managers",Boston,MA,"Estimated $56.7K – $71.9K a year",50K+,50K+
+268,"Data Analytics and Business Analyst - Future of Trust","DATA ANALYST",Deloitte,Boston,MA,None,None,None
+269,"Data Analyst","DATA ANALYST","National University",Boston,MA,"Estimated $77.2K – $97.8K a year",75K+,75K+
+270,"Data Analyst","DATA ANALYST",Wave,Boston,MA,"Estimated $66.5K - $84.1K a year",75K+,50K+
+271,"Business Analyst","DATA ANALYST",Deloitte,Boston,MA,None,None,None
+272,"Underwriting Data Analyst I","DATA ANALYST",DentaQuest,Boston,MA,None,None,None
+273,"Data Analyst","DATA ANALYST","Charles River Associates",Boston,MA,None,None,None
+274,"Healthcare Data Analyst","DATA ANALYST","KLS Group",Boston,MA,None,None,None
+275,"Business Performance Analyst","DATA ANALYST",Workable,Boston,MA,"Estimated $58.9K - $74.5K a year",50K+,50K+
+276,"Marketing Data Analyst","DATA ANALYST","Analysis Group, Inc.",Boston,MA,"Estimated $60.3K - $76.3K a year",75K+,50K+
+277,"Data Analyst","DATA ANALYST",SquareTrade,Boston,MA,"Estimated $76.5K - $96.9K a year",75K+,75K+
+278,"Data Analyst (REMOTE)","DATA ANALYST","Ryder System",Boston,MA,None,None,None
+279,"Senior Data Analyst, Analytics (Remote)","DATA ANALYST","Asics Digital",Boston,MA,"Estimated $86.3K - $109K a year",100K+,75K+
+280,"Financial Data Analyst, FP&A (Remote)","DATA ANALYST","Medically Home",Boston,MA,None,None,None
+281,"Data Science Analyst & Statistician","DATA ANALYST",DermBiont,Boston,MA,None,None,None
+282,"Entry Level Business Analyst","DATA ANALYST","PCS GLOBAL TECH",Boston,MA,"$65,000 - $70,000 a year",50K+,50K+
+283,"Data Science Analyst, Advanced Analytics - Full Time (Summer 2022)","DATA ANALYST",Wayfair,Boston,MA,None,None,None
+284,"Data Analyst","DATA ANALYST",Uplight,Boston,MA,"$62,000 - $65,000 a year",50K+,50K+
+285,"Marketing, Data & Insights Analyst - Boston, MA","DATA ANALYST",StudentUniverse,Boston,MA,"Estimated $88.3K – $112K a year",100K+,75K+
+286,"Data Analyst","DATA ANALYST",Poloniex,Boston,MA,"Estimated $86.5K – $110K a year",100K+,75K+
+287,"Research Data Analyst (Co-op)","DATA ANALYST","HFI-Healthcare Financial",Boston,MA,"Estimated $59K – $74.8K a year",50K+,50K+
+288,"Senior Data Analyst","DATA ANALYST","Labviva, Inc.",Boston,MA,"$90,000 - $110,000 a year",100K+,75K+
+289,"Marketing Data Analyst","DATA ANALYST","Coupa Software",Boston,MA,"Estimated $62.6K – $79.2K a year",75K+,50K+
+290,"Research Data Analyst (Co-op)","DATA ANALYST","Healthcare Financial, Inc.",Boston,MA,"$25 an hour",50K-,50K-
+291,"Data Analyst - Associate to Manager Level","DATA ANALYST",PowerAdvocate,Boston,MA,"Estimated $54.5K – $69.1K a year",50K+,50K+
+292,"Data Analyst","DATA ANALYST","Grand Circle LLC",Boston,MA,None,None,None
+293,"System Performance Testing Data / Business Analyst","DATA ANALYST","State Street",Boston,MA,None,None,None
+294,"Data Analyst, Growth (Customer Research)","DATA ANALYST",Hopper,Boston,MA,None,None,None
+295,"Data Analyst","DATA ANALYST",Jebbit,Boston,MA,"Estimated $78.6K – $99.6K a year",75K+,75K+
+296,"Data Analyst","DATA ANALYST","Nasdaq, Inc.",Boston,MA,None,None,None
+297,"Senior Data Analyst","DATA ANALYST","Woebot Health",Boston,MA,"Estimated $110K – $139K a year",125K+,100K+
+298,"Entry Level Business Analyst","DATA ANALYST",Atlantictranstrading,Boston,MA,"$65,000 - $75,000 a year",75K+,50K+
+299,"DATA ANALYST, School of Public Health, Biostatistics","DATA ANALYST","Boston University",Boston,MA,None,None,None

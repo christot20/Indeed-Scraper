@@ -1,0 +1,76 @@
+id,job_category,job_list_name,company_name,job_city,job_state,indeed_salary,salary_range_high,salary_range_low
+750,"Data Engineer","DATA ENGINEER","John Deere",Chicago,IL,"$94,000 - $140,500 a year",125K+,75K+
+751,"Data Engineer","DATA ENGINEER","John Deere",Chicago,IL,None,None,None
+752,"Data Engineer (Fully Remote)","DATA ENGINEER",BOEING,Chicago,IL,None,None,None
+753,"Freelance Hardware/ Data Centre Field Engineer","DATA ENGINEER","B-612 UK Ltd.",Chicago,IL,"$50 - $60 an hour",100K+,75K+
+754,"Data Engineer","DATA ENGINEER","CommonSpirit Health",Chicago,IL,"$70,000 - $98,000 a year",75K+,50K+
+755,"Data Engineer - Telecommute","DATA ENGINEER","UnitedHealth Group",Chicago,IL,None,None,None
+756,"Data Engineer 3","DATA ENGINEER","eTeam Inc",Chicago,IL,"$60 - $67 an hour",125K+,100K+
+757,"Data Engineer (High Frequency Trading)","DATA ENGINEER",Engtal,Chicago,IL,"$250,000 - $320,000 a year",200K+,200K+
+758,"Data Engineer","DATA ENGINEER","The Hagan-Ricci Group",Chicago,IL,"$200,000 - $300,000 a year",200K+,200K+
+759,"Data Center Engineer","DATA ENGINEER","ECCO Select",Chicago,IL,"$55 - $61 an hour",100K+,100K+
+760,"Principal Data Engineer","DATA ENGINEER",WALGREENS,Chicago,IL,None,None,None
+761,"Data Engineer","DATA ENGINEER","Chicago Blackhawks",Chicago,IL,"Estimated $90K – $114K a year",100K+,75K+
+762,"Data Engineer Entry Level","DATA ENGINEER","PCS GLOBAL TECH",Chicago,IL,"Estimated $52.4K – $66.4K a year",50K+,50K+
+763,"Data Engineer","DATA ENGINEER","Northwestern Medicine",Chicago,IL,None,None,None
+764,"Data Engineer","DATA ENGINEER",TransUnion,Chicago,IL,None,None,None
+765,"FULLY REMOTE - Data Engineer - Python","DATA ENGINEER",CyberCoders,Chicago,IL,"$130,000 - $160,000 a year",150K+,125K+
+766,"Data Engineer","DATA ENGINEER","JPMorgan Chase Bank, N.A.",Chicago,IL,None,None,None
+767,"Data Engineer","DATA ENGINEER",MARS,Chicago,IL,None,None,None
+768,"Data Engineer","DATA ENGINEER",Glassdoor,Chicago,IL,"Estimated $106K - $134K a year",125K+,100K+
+769,"Data Engineer, BPE","DATA ENGINEER",Meta,Chicago,IL,None,None,None
+770,"Data Engineer","DATA ENGINEER",RiverPoint,Chicago,IL,"Estimated $84.6K - $107K a year",100K+,75K+
+771,"Big Data Engineer- 100% Remote","DATA ENGINEER",Alight,Chicago,IL,"$100,000 a year",100K+,100K+
+772,"Data Engineer","DATA ENGINEER",TEKsystems,Chicago,IL,None,None,None
+773,"Senior Data Engineer II","DATA ENGINEER","Abbott Laboratories",Chicago,IL,None,None,None
+774,"Manager - Data Engineer","DATA ENGINEER","McDonald's Corporation",Chicago,IL,"Estimated $91.8K - $116K a year",100K+,75K+
+775,"Data Engineer","DATA ENGINEER",CCC,Chicago,IL,None,None,None
+776,"Data Engineer","DATA ENGINEER","Abbott Laboratories",Chicago,IL,None,None,None
+777,"Staff Data Engineer","DATA ENGINEER","Teladoc Health",Chicago,IL,"$155,000 - $185,000 a year",150K+,150K+
+778,"Senior Data Engineer","DATA ENGINEER",HelloFresh,Chicago,IL,None,None,None
+779,"Senior Data Engineer","DATA ENGINEER",Shortcut,Chicago,IL,"$145,000 - $160,000 a year",150K+,125K+
+780,"Senior Data Engineer","DATA ENGINEER","CNA Insurance",Chicago,IL,None,None,None
+781,"Senior Data Engineer","DATA ENGINEER",OBMedia,Chicago,IL,"$110,000 - $150,000 a year",150K+,100K+
+782,"Software Engineer, Data Analytics Engine","DATA ENGINEER",DoorDash,Chicago,IL,None,None,None
+783,"Senior Data Engineer","DATA ENGINEER",Discover,Chicago,IL,None,None,None
+784,"Data Engineer","DATA ENGINEER",CyberCoders,Chicago,IL,"$110,000 - $130,000 a year",125K+,100K+
+785,"Senior Data Engineer","DATA ENGINEER","Michael Page",Chicago,IL,None,None,None
+786,"Big Data Engineer","DATA ENGINEER",Epsilon,Chicago,IL,None,None,None
+787,"Senior Data Engineer","DATA ENGINEER",Yello,Chicago,IL,"Estimated $115K - $146K a year",125K+,100K+
+788,"Big Data Engineer - Opportunity for Working Remotely Chicago, IL","DATA ENGINEER",VMware,Chicago,IL,None,None,None
+789,"Senior Data Engineer","DATA ENGINEER","Grubhub Holdings, Inc.",Chicago,IL,None,None,None
+790,"Big Data Engineer","DATA ENGINEER","Robert Half",Chicago,IL,"$120,000 - $130,000 a year",125K+,100K+
+791,"Data Engineer- Remote","DATA ENGINEER",Omnicell,Chicago,IL,"Estimated $106K - $134K a year",125K+,100K+
+792,"Senior Software Engineer - Data Platform Group","DATA ENGINEER",SCRUFF,Chicago,IL,"Estimated $111K - $141K a year",125K+,100K+
+793,"Staff Data Engineer","DATA ENGINEER",Mozilla,Chicago,IL,None,None,None
+794,"Data Engineer","DATA ENGINEER",Abbvie,Chicago,IL,None,None,None
+795,"AWS Data Engineer","DATA ENGINEER",Deloitte,Chicago,IL,None,None,None
+796,"Senior Data Analytics Engineer (North of Chicago)","DATA ENGINEER",Uline,Chicago,IL,None,None,None
+797,"Senior Software Engineer - Data Platform Group","DATA ENGINEER",Epsilon,Chicago,IL,None,None,None
+798,"Data Operations Engineer","DATA ENGINEER","Pareto Intelligence",Chicago,IL,"Estimated $83.5K – $106K a year",100K+,75K+
+799,"Associate Data & Machine Learning Engineer","DATA ENGINEER","Amazon Web Services, Inc.",Chicago,IL,"$82,600 a year",75K+,75K+
+800,"Professional-Big Data Engineer","DATA ENGINEER",AT&T,Chicago,IL,None,None,None
+801,"Senior Data Platform Engineer","DATA ENGINEER",Abbvie,Chicago,IL,None,None,None
+802,"Senior Software Engineer, Data Infrastructure (Blockchain Startup)","DATA ENGINEER","Recruiting From Scratch",Chicago,IL,"$125,000 - $175,000 a year",150K+,125K+
+803,"Senior Data Engineer (WH)","DATA ENGINEER",WALGREENS,Chicago,IL,None,None,None
+804,"BI Engineer - Data Analytics","DATA ENGINEER","Costco Wholesale",Chicago,IL,None,None,None
+805,"Data Engineer - Digital Services","DATA ENGINEER",Siemens,Chicago,IL,None,None,None
+806,"Senior Data Engineer","DATA ENGINEER","Fast Radius",Chicago,IL,"Estimated $124K – $156K a year",150K+,100K+
+807,"GCP Data Engineer","DATA ENGINEER",Accenture,Chicago,IL,None,None,None
+808,"Senior Backend Engineer (Data)","DATA ENGINEER",Chowbus,Chicago,IL,"Estimated $135K – $171K a year",150K+,125K+
+809,"Data Platform Engineer - Senior","DATA ENGINEER",Cloudbeds,Chicago,IL,None,None,None
+810,"Senior Software Engineer - HR Data","DATA ENGINEER","John Deere",Chicago,IL,None,None,None
+811,"Data Engineer","DATA ENGINEER","John Deere",Chicago,IL,None,None,None
+812,"FULLY REMOTE - Data Engineer - Python","DATA ENGINEER",CyberCoders,Chicago,IL,"$130,000 - $160,000 a year",150K+,125K+
+813,"Data Center Engineer","DATA ENGINEER","ECCO Select",Chicago,IL,"$55 - $61 an hour",100K+,100K+
+814,"Data Engineer / Data Scientist","DATA ENGINEER","Chamberlain Advisors LLC",Chicago,IL,"Estimated $121K – $153K a year",150K+,100K+
+815,"Senior Data Engineer - Platform (Remote)","DATA ENGINEER","New Relic",Chicago,IL,"Estimated $108K – $137K a year",125K+,100K+
+816,"Associate, Software Engineer - Advisory Data Organization","DATA ENGINEER",KPMG,Chicago,IL,None,None,None
+817,"Data Engineer, Associate Data Engineer","DATA ENGINEER",PepsiCo,Chicago,IL,None,None,None
+818,"Data Engineer II","DATA ENGINEER",Grainger,Chicago,IL,None,None,None
+819,"Software Engineer (Data Team)","DATA ENGINEER","Capital Management",Chicago,IL,"Estimated $89.9K – $114K a year",100K+,75K+
+820,"Data Platform Engineer","DATA ENGINEER",Upstart,Chicago,IL,None,None,None
+821,"Senior Associate, Data Scientist Engineer - Advisory Data Organization","DATA ENGINEER",KPMG,Chicago,IL,None,None,None
+822,"One Demand Data Analytics (ODDA) DevOps Engineer","DATA ENGINEER",MARS,Chicago,IL,None,None,None
+823,"Data Engineer","DATA ENGINEER",Provi,Chicago,IL,"Estimated $102K – $129K a year",125K+,100K+
+824,"Senior Big Data Engineer","DATA ENGINEER","Integral Ad Science",Chicago,IL,"Estimated $126K – $159K a year",150K+,125K+

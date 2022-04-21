@@ -1,0 +1,76 @@
+id,job_category,job_list_name,company_name,job_city,job_state,indeed_salary,salary_range_high,salary_range_low
+75,"Data Analyst","DATA ANALYST","NYU Langone Health","New York",NY,None,None,None
+76,"Data Analyst","DATA ANALYST","UTILITY CONSTRUCTION","New York",NY,"$80,000 - $120,000 a year",100K+,75K+
+77,"Data Analyst - Merchandising (Remote)","DATA ANALYST",CustomInk,"New York",NY,"Estimated $71.9K - $91.1K a year",75K+,50K+
+78,"Data Analyst","DATA ANALYST","Qi Venture Partners","New York",NY,"$65,000 - $75,000 a year",75K+,50K+
+79,"Data Analyst","DATA ANALYST","Care for the Homeless","New York",NY,"Estimated $54.6K - $69.2K a year",50K+,50K+
+80,"Jr. Data Analyst","DATA ANALYST","Colsh Tech","New York",NY,"$65,000 - $80,000 a year",75K+,50K+
+81,"Data Analyst Entry Level","DATA ANALYST","PCS GLOBAL TECH","New York",NY,"$60,000 - $70,000 a year",50K+,50K+
+82,"Data Analyst (remote role) - D22-006399","DATA ANALYST","Evergreen Technologies, LLC.","New York",NY,"Estimated $74.9K - $94.9K a year",75K+,50K+
+83,"Data Analyst (Remote)","DATA ANALYST",pulseData,"New York",NY,"$60,000 - $80,000 a year",75K+,50K+
+84,"Junior Data Analyst","DATA ANALYST",MealPal,"New York",NY,"Estimated $58.5K - $74.1K a year",50K+,50K+
+85,"Data Analyst","DATA ANALYST","Sony Music Publishing (US) LLC","New York",NY,None,None,None
+86,"Data Analyst (Remote)","DATA ANALYST",MIRROR,"New York",NY,"Estimated $79K - $100K a year",100K+,75K+
+87,"Data Analyst","DATA ANALYST","Northwell Health","New York",NY,None,None,None
+88,"Data Analyst","DATA ANALYST","6elm Capital","New York",NY,"$80,000 - $100,000 a year",100K+,75K+
+89,"Data Analyst","DATA ANALYST","Valon Mortgage","New York",NY,"Estimated $78K - $98.8K a year",75K+,75K+
+90,"Revenue Cycle Analyst-Patient Access","DATA ANALYST","NYU Langone Health","New York",NY,None,None,None
+91,"Data Analyst","DATA ANALYST","Cityblock Health","New York",NY,"Estimated $86.4K – $109K a year",100K+,75K+
+92,"Data Analyst and Reporting Specialist","DATA ANALYST","The Bridge Inc.","New York",NY,"Estimated $53.2K – $67.4K a year",50K+,50K+
+93,"Business Analyst","DATA ANALYST","Ana-Data Consulting Inc","New York",NY,"$65 - $78 an hour",150K+,125K+
+94,"Data Analyst","DATA ANALYST","Jenner & Block LLP","New York",NY,"Estimated $57K – $72.2K a year",50K+,50K+
+95,"Data Analyst","DATA ANALYST",Netomi,"New York",NY,"$80,000 - $100,000 a year",100K+,75K+
+96,"Data Analyst","DATA ANALYST","New York University","New York",NY,None,None,None
+97,"Data Analyst","DATA ANALYST","Michael Page","New York",NY,"$60,000 - $125,000 a year",125K+,50K+
+98,"Data Analyst, Growth","DATA ANALYST","West CAP","New York",NY,"Estimated $80.5K – $102K a year",100K+,75K+
+99,"Data Analyst","DATA ANALYST","Digital Remedy","New York",NY,"Estimated $73.1K – $92.5K a year",75K+,50K+
+100,"Data Analyst","DATA ANALYST","Nobu Restaurant Group","New York",NY,"$29 - $30 an hour",50K+,50K+
+101,"Data Analyst Supporting the FBI","DATA ANALYST","FSA Federal","New York",NY,"$26.92 an hour",50K+,50K+
+102,"Data Analyst","DATA ANALYST","Insight Global","New York",NY,"From $50 an hour",75K+,75K+
+103,"Analyst, Data Products","DATA ANALYST","The New York Times","New York",NY,None,None,None
+104,"Data Transformation Analyst","DATA ANALYST","Michael Page","New York",NY,"$110,000 - $120,000 a year",100K+,100K+
+105,"Business Data Analyst","DATA ANALYST",Pinkerton,"New York",NY,None,None,None
+106,"Business Analyst","DATA ANALYST","eTeam Inc","New York",NY,"$23 - $26 an hour",50K+,50K-
+107,"Data Analyst","DATA ANALYST","Ursus, Inc.","New York",NY,"Estimated $69.5K - $87.9K a year",75K+,50K+
+108,"Data Migration Analyst","DATA ANALYST","Chamberlain Advisors LLC","New York",NY,"Estimated $60.9K - $77.1K a year",75K+,50K+
+109,"Data Analyst, Growth","DATA ANALYST",NorthOne,"New York",NY,"Estimated $63.9K - $80.9K a year",75K+,50K+
+110,"Data Operations Analyst - Parametric","DATA ANALYST","Morgan Stanley","New York",NY,None,None,None
+111,"Ecommerce Data Analyst","DATA ANALYST",PepsiCo,"New York",NY,None,None,None
+112,"Data Analyst","DATA ANALYST",Brooksource,"New York",NY,"$38 - $42 an hour",75K+,50K+
+113,"Data/Reporting Analyst","DATA ANALYST","Change Healthcare","New York",NY,None,None,None
+114,"Business Analyst","DATA ANALYST","Memorial Sloan Kettering Cancer Center","New York",NY,None,None,None
+115,"Data Analyst","DATA ANALYST","Dow Jones","New York",NY,None,None,None
+116,"Data Integrations Analyst","DATA ANALYST","Stellar Health","New York",NY,"Estimated $61.2K - $77.6K a year",75K+,50K+
+117,"Analyst, Data and Analysis","DATA ANALYST",Digitas,"New York",NY,"Estimated $43.5K - $55.1K a year",50K+,50K-
+118,"Data Governance Analyst","DATA ANALYST",Cognizant,"New York",NY,None,None,None
+119,"Data Operations Analyst","DATA ANALYST",VTS,"New York",NY,"Estimated $70.6K - $89.4K a year",75K+,50K+
+120,"Data Analytics Associate","DATA ANALYST","Clarify Health Solutions.","New York",NY,"$75,500 - $102,500 a year",100K+,75K+
+121,"Analyst, Data and Analysis","DATA ANALYST",Digitas,"New York",NY,"Estimated $49.2K - $62.2K a year",50K+,50K-
+122,"Data and Reporting Analyst","DATA ANALYST",Citi,"New York",NY,None,None,None
+123,"Public Finance Products Data Analyst","DATA ANALYST","JPMorgan Chase Bank, N.A.","New York",NY,None,None,None
+124,"Data Analyst","DATA ANALYST","United Nations","New York",NY,None,None,None
+125,"Data Analyst","DATA ANALYST","Touro College New York","New York",NY,"Estimated $66.6K - $84.4K a year",75K+,50K+
+126,"Associate Business Analyst","DATA ANALYST",Paramount,"New York",NY,None,None,None
+127,"Junior Data Analyst","DATA ANALYST",VEVO,"New York",NY,"Estimated $52.9K - $66.9K a year",50K+,50K+
+128,"Analyst, Data and Insights Group (Growth)","DATA ANALYST","The New York Times","New York",NY,None,None,None
+129,"Data Analyst, SMB","DATA ANALYST",TikTok,"New York",NY,"Estimated $85.3K - $108K a year",100K+,75K+
+130,"Analyst, Data and Analysis","DATA ANALYST",Digitas,"New York",NY,"Estimated $61.6K - $78K a year",75K+,50K+
+131,"Data Warehouse Analyst","DATA ANALYST","NYU Langone","New York",NY,None,None,None
+132,"Analyst Business Intelligence","DATA ANALYST","Madison Square Garden Entertainment","New York",NY,None,None,None
+133,"Data Analyst","DATA ANALYST","Lemonade Insurance Company","New York",NY,"Estimated $72.7K - $92.1K a year",75K+,50K+
+134,"Healthcare Data Analyst","DATA ANALYST",HealthFirst,"New York",NY,None,None,None
+135,"Data Analyst Supporting the FBI","DATA ANALYST","FSA Federal","New York",NY,"$26.92 an hour",50K+,50K+
+136,"Analyst, Revenue Intelligence","DATA ANALYST",AT&T,"New York",NY,None,None,None
+137,"Analyst, Data and Analysis","DATA ANALYST",Digitas,"New York",NY,"Estimated $43.5K – $55.1K a year",50K+,50K-
+138,"Business Intelligence Analyst","DATA ANALYST",YouTube,"New York",NY,None,None,None
+139,"Regulatory Data Operations Analyst","DATA ANALYST","Federal Reserve Bank of New York","New York",NY,"Estimated $49.2K – $62.4K a year",50K+,50K-
+140,"Associate Data Analyst","DATA ANALYST","Aretove Technologies","New York",NY,"Estimated $64.1K – $81.1K a year",75K+,50K+
+141,"Analyst, Forecasting & Analysis, Peacock","DATA ANALYST",NBCUniversal,"New York",NY,None,None,None
+142,"Data Analyst I - International Center for Health Outcomes & Innovation Research","DATA ANALYST","Mount Sinai","New York",NY,None,None,None
+143,"Associate Data Analyst","DATA ANALYST","S&P Global","New York",NY,None,None,None
+144,"Data Analyst - Parametric","DATA ANALYST","Morgan Stanley","New York",NY,None,None,None
+145,"Data Analyst","DATA ANALYST","Columbia University Medical Center","New York",NY,None,None,None
+146,"Data Analyst / Scientist","DATA ANALYST",UBS,"New York",NY,"Estimated $93K – $118K a year",100K+,75K+
+147,"Analyst, Data and Insights (Audience Analytics)","DATA ANALYST","The New York Times","New York",NY,None,None,None
+148,"Data Analyst 3 - Inventory Flow - HYBRID","DATA ANALYST","Nordstrom Inc","New York",NY,None,None,None
+149,"Data Analyst I - World Trade Center Health Program","DATA ANALYST","Mount Sinai","New York",NY,None,None,None

@@ -1,0 +1,76 @@
+id,job_category,job_list_name,company_name,job_city,job_state,indeed_salary,salary_range_high,salary_range_low
+975,"Data Scientist","DATA SCIENTIST",Hinge,"New York",NY,None,None,None
+976,"Data Analyst","DATA SCIENTIST",Netomi,"New York",NY,"$80,000 - $100,000 a year",100K+,75K+
+977,"Data Scientist","DATA SCIENTIST","CBL Solutions","New York",NY,"Estimated $75.7K - $95.9K a year",75K+,75K+
+978,"Data Scientist","DATA SCIENTIST","Northwell Health","New York",NY,None,None,None
+979,"Associate Data Scientist","DATA SCIENTIST",Murmuration,"New York",NY,"$85,000 a year",75K+,75K+
+980,"Data Scientist - Entry-Level position in Consulting","DATA SCIENTIST","Campana & Schott Business Services GmbH","New York",NY,"Estimated $64.9K - $82.1K a year",75K+,50K+
+981,"Data Scientist, Growth, Talk","DATA SCIENTIST",Spotify,"New York",NY,"Estimated $101K - $127K a year",125K+,100K+
+982,"Data Scientist - Analytics","DATA SCIENTIST",Twitch,"New York",NY,None,None,None
+983,"Data Scientist","DATA SCIENTIST","Source Enterprises","New York",NY,"Estimated $31.7K - $40.1K a year",50K-,50K-
+984,"Jr. Data Scientist","DATA SCIENTIST",Paramount,"New York",NY,None,None,None
+985,"Data Scientist, Analytics","DATA SCIENTIST",Duolingo,"New York",NY,"Estimated $94.8K - $120K a year",100K+,75K+
+986,"Data Scientist at Sleep Startup","DATA SCIENTIST","Recruiting From Scratch","New York",NY,"$125,000 - $175,000 a year",150K+,125K+
+987,"Data Scientist, BotGuard","DATA SCIENTIST","Human Security","New York",NY,"Estimated $114K - $144K a year",125K+,100K+
+988,"Data Scientist","DATA SCIENTIST",Kargo,"New York",NY,"Estimated $105K - $133K a year",125K+,100K+
+989,"Data Scientist","DATA SCIENTIST","LSEG (London Stock Exchange Group)","New York",NY,"Estimated $114K - $144K a year",125K+,100K+
+990,"Data Scientist, Experimentation","DATA SCIENTIST","Dow Jones","New York",NY,None,None,None
+991,"Machine Learning Engineer - Marketplace Incentive Optimization","DATA SCIENTIST",Uber,"New York",NY,None,None,None
+992,"AI/ML - Software Development Engineer, Data Products and Services","DATA SCIENTIST",Apple,"New York",NY,None,None,None
+993,"Data Analyst / Scientist","DATA SCIENTIST",UBS,"New York",NY,"Estimated $93K - $118K a year",100K+,75K+
+994,"Data Science Associate (Current Students)","DATA SCIENTIST","ZS Associates","New York",NY,None,None,None
+995,"Technical Business Analyst","DATA SCIENTIST","MATRIX Resources","New York",NY,None,None,None
+996,"Junior Data Scientist (US - East Coast)","DATA SCIENTIST","OGC Global","New York",NY,"Estimated $66.3K - $83.9K a year",75K+,50K+
+997,"Data Scientist, Product","DATA SCIENTIST",Go2Andaman,"New York",NY,"Estimated $135K - $171K a year",150K+,125K+
+998,"Data Scientist (Analytics)","DATA SCIENTIST","Quartet Health","New York",NY,"Estimated $107K - $136K a year",125K+,100K+
+999,"Data Scientist","DATA SCIENTIST",TikTok,"New York",NY,"Estimated $98.8K - $125K a year",125K+,75K+
+1000,"Data Scientist","DATA SCIENTIST","ViacomCBS Networks International","New York",NY,None,None,None
+1001,"Data Scientist, Talent Analytics & Reporting","DATA SCIENTIST","Ross Stores","New York",NY,None,None,None
+1002,"Data Scientist, Product","DATA SCIENTIST",Notion,"New York",NY,"Estimated $130K - $165K a year",150K+,125K+
+1003,"Data Scientist","DATA SCIENTIST","Morgan Stanley","New York",NY,None,None,None
+1004,"Associate, Data Scientist","DATA SCIENTIST","S&P Global","New York",NY,"$67,600 - $190,100 a year",150K+,50K+
+1005,"Staff Data Scientist, Partnerships","DATA SCIENTIST",LegalZoom,"New York",NY,"Estimated $108K - $137K a year",125K+,100K+
+1006,"Data Scientist / Senior Data Scientist, Analytics","DATA SCIENTIST",DoorDash,"New York",NY,None,None,None
+1007,"Analytics Data Scientist, Demand Forecasting","DATA SCIENTIST","Amazon.com Services LLC","New York",NY,None,None,None
+1008,"Machine Learning Engineer","DATA SCIENTIST","S&P Global","New York",NY,"$100,800 - $230,200 a year",200K+,100K+
+1009,"Machine Learning Engineer","DATA SCIENTIST","JPMorgan Chase Bank, N.A.","New York",NY,None,None,None
+1010,"Data Scientist","DATA SCIENTIST",Digitas,"New York",NY,"Estimated $125K - $159K a year",150K+,125K+
+1011,"Data Scientist, Content Analytics, Podcasts & Studios","DATA SCIENTIST",Spotify,"New York",NY,"Estimated $109K - $138K a year",125K+,100K+
+1012,"Data Scientist / Machine Learning Engineer","DATA SCIENTIST",Well,"New York",NY,None,None,None
+1013,"Data Science Associate (Remote)","DATA SCIENTIST",pulseData,"New York",NY,"Estimated $98K - $124K a year",100K+,75K+
+1014,"Data Scientist, Product - Rides, Eats, Grocery, Maps, & Platforms (All Levels)","DATA SCIENTIST",Uber,"New York",NY,None,None,None
+1015,"Machine Learning Associate","DATA SCIENTIST","Dentsu Media","New York",NY,"Estimated $94.7K - $120K a year",100K+,75K+
+1016,"Machine Learning Engineer, Payment Platform","DATA SCIENTIST",Square,"New York",NY,None,None,None
+1017,"Data Scientist, Square for Retail","DATA SCIENTIST",Square,"New York",NY,None,None,None
+1018,"Data Analyst","DATA SCIENTIST","Lemonade Insurance Company","New York",NY,"Estimated $73.2K - $92.6K a year",75K+,50K+
+1019,"Applied Data Scientist","DATA SCIENTIST",Kforce,"New York",NY,None,None,None
+1020,"Distinguished Engineer - Machine Learning","DATA SCIENTIST","Capital One","New York",NY,None,None,None
+1021,"Remote - Staff (Lead) Data Scientist","DATA SCIENTIST",Shopify,"New York",NY,None,None,None
+1022,"AI/ML - Software Engineer (Data), Personal and Private Learning","DATA SCIENTIST",Apple,"New York",NY,None,None,None
+1023,"Video Advertising Data Scientist - NYC","DATA SCIENTIST",Apple,"New York",NY,None,None,None
+1024,"AI/ML - Machine Learning Researcher, Information Intelligence","DATA SCIENTIST",Apple,"New York",NY,None,None,None
+1025,"Data Scientist","DATA SCIENTIST",Rokt,"New York",NY,"Estimated $115K - $145K a year",125K+,100K+
+1026,"Senior Data Analyst, Eats for Business","DATA SCIENTIST",Uber,"New York",NY,None,None,None
+1027,"Data Scientist - Staff","DATA SCIENTIST",EY,"New York",NY,None,None,None
+1028,"Data Scientist - Global Decision Science","DATA SCIENTIST",Amex,"New York",NY,None,None,None
+1029,"Machine Learning Engineer (All levels)","DATA SCIENTIST",Socure,"New York",NY,"Estimated $113K - $143K a year",125K+,100K+
+1030,"Quantitative Researcher","DATA SCIENTIST",TikTok,"New York",NY,"Estimated $102K - $129K a year",125K+,100K+
+1031,"Sr. Data Scientist, Commercial Risk & Analytics","DATA SCIENTIST","Capital One - US","New York",NY,None,None,None
+1032,"Applied AI ML Lead","DATA SCIENTIST","JPMorgan Chase Bank, N.A.","New York",NY,None,None,None
+1033,"Senior Data Scientist","DATA SCIENTIST","Major League Baseball","New York",NY,"Estimated $131K - $166K a year",150K+,125K+
+1034,"Senior Scientist, Data Science","DATA SCIENTIST","Johnson & Johnson","New York",NY,None,None,None
+1035,"App Store Marketing Data Scientist","DATA SCIENTIST",Apple,"New York",NY,None,None,None
+1036,"Senior Data Scientist, Insights","DATA SCIENTIST",Peloton,"New York",NY,None,None,None
+1037,"Data Scientist, Game Analytics & Strategy","DATA SCIENTIST","the NBA","New York",NY,"Estimated $97.1K – $123K a year",100K+,75K+
+1038,"Data Scientist, Demand Forecasting","DATA SCIENTIST",Wonder,"New York",NY,"Estimated $142K – $180K a year",150K+,125K+
+1039,"Data Scientist (US Consumer Analytics - Cross Program Optimization)","DATA SCIENTIST",Citi,"New York",NY,None,None,None
+1040,"Principal Associate, Data Scientist - Commercial Bank","DATA SCIENTIST","Capital One - US","New York",NY,None,None,None
+1041,"Data Science Analyst I","DATA SCIENTIST","Mount Sinai","New York",NY,None,None,None
+1042,"Customer Engineer, Enterprise Artificial Intelligence and Machine Learning","DATA SCIENTIST",Google,"New York",NY,None,None,None
+1043,"Senior Applied Scientist","DATA SCIENTIST",Microsoft,"New York",NY,None,None,None
+1044,"Applied Scientist","DATA SCIENTIST","Amazon Dev Center U.S., Inc.","New York",NY,None,None,None
+1045,"Senior Data Scientist","DATA SCIENTIST",Paramount,"New York",NY,None,None,None
+1046,"Data Scientist Sr. Associate","DATA SCIENTIST","JPMorgan Chase Bank, N.A.","New York",NY,None,None,None
+1047,"Sr. Analyst - Data Science","DATA SCIENTIST",Amex,"New York",NY,None,None,None
+1048,"Data Scientist","DATA SCIENTIST","Oscar Health","New York",NY,None,None,None
+1049,"Research Engineer - Machine Learning (University Grad)","DATA SCIENTIST",Portal,"New York",NY,None,None,None

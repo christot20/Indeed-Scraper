@@ -1,0 +1,76 @@
+id,job_category,job_list_name,company_name,job_city,job_state,indeed_salary,salary_range_high,salary_range_low
+1050,"Data Scientist - Intermediate","DATA SCIENTIST",Envision,"San Francisco",CA,"Estimated $122K – $155K a year",150K+,100K+
+1051,"Data Scientist","DATA SCIENTIST","Warman O'Brien","San Francisco",CA,"$120,000 - $140,000 a year",125K+,100K+
+1052,"Data Scientist, Payment Experience","DATA SCIENTIST",Square,"San Francisco",CA,None,None,None
+1053,"Data Scientist","DATA SCIENTIST",Faire,"San Francisco",CA,"Estimated $119K – $150K a year",150K+,100K+
+1054,"Data Scientist","DATA SCIENTIST","Gap Inc.","San Francisco",CA,None,None,None
+1055,"Data Scientist","DATA SCIENTIST","Embark Trucks","San Francisco",CA,"Estimated $110K – $139K a year",125K+,100K+
+1056,"Data Scientist","DATA SCIENTIST","Grammarly, Inc.","San Francisco",CA,"Estimated $129K – $164K a year",150K+,125K+
+1057,"Data Scientist - Machine Learning","DATA SCIENTIST",Twitch,"San Francisco",CA,None,None,None
+1058,"Data Scientist","DATA SCIENTIST",Adobe,"San Francisco",CA,None,None,None
+1059,"Jr. Data Scientist","DATA SCIENTIST",Aroopa,"San Francisco",CA,"Estimated $116K – $146K a year",125K+,100K+
+1060,"Data Analyst","DATA SCIENTIST",Netomi,"San Francisco",CA,"$80,000 - $100,000 a year",100K+,75K+
+1061,"Remote Data Scientist","DATA SCIENTIST",CyberCoders,"San Francisco",CA,"$150,000 - $200,000 a year",200K+,150K+
+1062,"Data Scientist, TikTok Creation and Consumption","DATA SCIENTIST",TikTok,"San Francisco",CA,"Estimated $110K – $139K a year",125K+,100K+
+1063,"Data Scientist","DATA SCIENTIST","Unify Consulting","San Francisco",CA,"$111,269 - $221,990 a year",200K+,100K+
+1064,"Data Scientist at Sleep Startup","DATA SCIENTIST","Recruiting From Scratch","San Francisco",CA,"$125,000 - $175,000 a year",150K+,125K+
+1065,"Data Scientist - Analytics","DATA SCIENTIST","Twitch Interactive, Inc.","San Francisco",CA,None,None,None
+1066,"Data Scientist, Product Analytics","DATA SCIENTIST",Lattice,"San Francisco",CA,"Estimated $124K - $157K a year",150K+,100K+
+1067,"Data Scientist, Analytics & Data","DATA SCIENTIST","Williams Sonoma","San Francisco",CA,None,None,None
+1068,"Data Scientist, Product","DATA SCIENTIST",Notion,"San Francisco",CA,"Estimated $128K - $162K a year",150K+,125K+
+1069,"Data Scientist, Product","DATA SCIENTIST",Go2Andaman,"San Francisco",CA,"Estimated $128K - $162K a year",150K+,125K+
+1070,"Data Scientist, Core Product","DATA SCIENTIST",Airtable,"San Francisco",CA,"Estimated $116K - $146K a year",125K+,100K+
+1071,"Product Data Scientist","DATA SCIENTIST",Philo,"San Francisco",CA,"Estimated $117K - $149K a year",125K+,100K+
+1072,"Data Scientist, Analytics - Customer Experience","DATA SCIENTIST",Twitch,"San Francisco",CA,None,None,None
+1073,"Data Scientist","DATA SCIENTIST","NextEra Energy","San Francisco",CA,None,None,None
+1074,"Data Scientist","DATA SCIENTIST","University of California San Francisco","San Francisco",CA,None,None,None
+1075,"Data Scientist- Marketing","DATA SCIENTIST","FocusKPI Inc.","San Francisco",CA,"Estimated $136K - $172K a year",150K+,125K+
+1076,"Data Scientist - ML Payment Risk","DATA SCIENTIST",Plaid,"San Francisco",CA,"Estimated $139K - $176K a year",150K+,125K+
+1077,"Data Scientist, Point of Sale & Customers - Loyalty","DATA SCIENTIST",Square,"San Francisco",CA,None,None,None
+1078,"Data Scientist","DATA SCIENTIST","University of California San Francisco","San Francisco",CA,None,None,None
+1079,"Data Scientist, Product Analytics","DATA SCIENTIST",Evernote,"San Francisco",CA,"Estimated $113K - $143K a year",125K+,100K+
+1080,"Data Scientist - Analytics","DATA SCIENTIST",Twitch,"San Francisco",CA,None,None,None
+1081,"Data Scientist, Payment Experience","DATA SCIENTIST",Square,"San Francisco",CA,None,None,None
+1082,"Data Scientist - Intermediate","DATA SCIENTIST",Envision,"San Francisco",CA,"Estimated $110K - $140K a year",125K+,100K+
+1083,"Data Scientist, Product","DATA SCIENTIST",Digit,"San Francisco",CA,"Estimated $104K - $132K a year",125K+,100K+
+1084,"Data Scientist","DATA SCIENTIST","Stitch Fix","San Francisco",CA,"Estimated $122K - $155K a year",150K+,100K+
+1085,"Associate Data Scientist","DATA SCIENTIST","Gap Inc.","San Francisco",CA,None,None,None
+1086,"Data Scientist, Consumer Marketing Analytics","DATA SCIENTIST",Reddit,"San Francisco",CA,None,None,None
+1087,"Marketing Data Scientist (Remote)","DATA SCIENTIST",Shipt,"San Francisco",CA,None,None,None
+1088,"Data Scientist","DATA SCIENTIST",Quantapore,"San Francisco",CA,"Estimated $129K - $164K a year",150K+,125K+
+1089,"Machine Learning Scientist","DATA SCIENTIST",Glassdoor,"San Francisco",CA,"$129,300 - $193,900 a year",150K+,125K+
+1090,"Data Scientist, Customer Success","DATA SCIENTIST",Square,"San Francisco",CA,None,None,None
+1091,"Data Scientist","DATA SCIENTIST",6sense,"San Francisco",CA,"Estimated $98.2K - $124K a year",100K+,75K+
+1092,"Data Scientist, Developer Empowerment","DATA SCIENTIST",Square,"San Francisco",CA,None,None,None
+1093,"Data Scientist","DATA SCIENTIST",InMarket,"San Francisco",CA,"Estimated $122K - $155K a year",150K+,100K+
+1094,"Data Scientist","DATA SCIENTIST",PocketPills,"San Francisco",CA,"Estimated $116K - $147K a year",125K+,100K+
+1095,"Data Scientist, Analytics - Customer Experience","DATA SCIENTIST",Twitch,"San Francisco",CA,None,None,None
+1096,"Data Scientist","DATA SCIENTIST",RAPP,"San Francisco",CA,"Estimated $120K - $152K a year",150K+,100K+
+1097,"Data Scientist","DATA SCIENTIST",Algonomy,"San Francisco",CA,"Estimated $123K - $156K a year",150K+,100K+
+1098,"Data Scientist - Growth","DATA SCIENTIST",Nextdoor,"San Francisco",CA,"Estimated $128K - $162K a year",150K+,125K+
+1099,"Machine Learning Developer","DATA SCIENTIST","Loft Orbital Solutions","San Francisco",CA,"Estimated $109K - $138K a year",125K+,100K+
+1100,"Senior Data Scientist - Analytics","DATA SCIENTIST","Twitch Interactive, Inc.","San Francisco",CA,None,None,None
+1101,"88-50100161 Imaging Data Scientist","DATA SCIENTIST",Genentech,"San Francisco",CA,None,None,None
+1102,"Data Scientist","DATA SCIENTIST",Envoy,"San Francisco",CA,None,None,None
+1103,"Data Scientist, Ads Analytics","DATA SCIENTIST",Niantic,"San Francisco",CA,"Estimated $118K - $150K a year",150K+,100K+
+1104,"Data Scientist, Small Business Group","DATA SCIENTIST","Facebook App","San Francisco",CA,None,None,None
+1105,"Data Scientist (Experimentation)","DATA SCIENTIST","Gap Inc.","San Francisco",CA,None,None,None
+1106,"Data Scientist","DATA SCIENTIST",Herophilus,"San Francisco",CA,"Estimated $104K - $132K a year",125K+,100K+
+1107,"Data Scientist, Big Data R&D (All levels)","DATA SCIENTIST",Socure,"San Francisco",CA,"Estimated $123K - $155K a year",150K+,100K+
+1108,"Staff Data Scientist - Opportunity for Working Remotely San Francisco, CA","DATA SCIENTIST",VMware,"San Francisco",CA,None,None,None
+1109,"Machine Learning Earth Scientist","DATA SCIENTIST","Sofar Ocean","San Francisco",CA,"Estimated $105K - $133K a year",125K+,100K+
+1110,"Sr. Data Analyst - Marketing Analytics (Remote)","DATA SCIENTIST","Madison Reed","San Francisco",CA,"Estimated $92.2K - $117K a year",100K+,75K+
+1111,"Senior Data Analyst, Eats for Business","DATA SCIENTIST",Uber,"San Francisco",CA,None,None,None
+1112,"Data Scientist","DATA SCIENTIST","COMPASS Pathways","San Francisco",CA,"Estimated $122K - $154K a year",150K+,100K+
+1113,"Customer Transformation Data Scientist - Senior Associate","DATA SCIENTIST","PRICE WATERHOUSE COOPERS","San Francisco",CA,None,None,None
+1114,"Data Scientist","DATA SCIENTIST",dYdX,"San Francisco",CA,"Estimated $121K - $153K a year",150K+,100K+
+1115,"Senior Data Scientist","DATA SCIENTIST","Tomo Credit","San Francisco",CA,"Estimated $141K - $179K a year",150K+,125K+
+1116,"Senior Data Scientist","DATA SCIENTIST",Curology,"San Francisco",CA,"Estimated $156K - $198K a year",150K+,150K+
+1117,"Quantitative Policy Analyst or Data Scientist","DATA SCIENTIST","Mission Analytics Group","San Francisco",CA,"Estimated $101K - $127K a year",125K+,100K+
+1118,"Data Scientist","DATA SCIENTIST","Lever Implementation Training Environment","San Francisco",CA,"Estimated $146K - $184K a year",150K+,125K+
+1119,"Data Scientist","DATA SCIENTIST",Blockchain.com,"San Francisco",CA,"Estimated $121K - $154K a year",150K+,100K+
+1120,"Data Scientist","DATA SCIENTIST",Abacus.ai,"San Francisco",CA,None,None,None
+1121,"Machine Learning Operations Engineer","DATA SCIENTIST",Genentech,"San Francisco",CA,"$111,000 - $165,000 a year",150K+,100K+
+1122,"Machine Learning Scientist","DATA SCIENTIST",Herophilus,"San Francisco",CA,"Estimated $131K - $166K a year",150K+,125K+
+1123,"Data Scientist","DATA SCIENTIST",Fractal.ai,"San Francisco",CA,"Estimated $105K - $133K a year",125K+,100K+
+1124,"Staff Data Scientist, Growth","DATA SCIENTIST",Patreon,"San Francisco",CA,"Estimated $114K - $145K a year",125K+,100K+

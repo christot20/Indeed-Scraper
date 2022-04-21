@@ -1,0 +1,76 @@
+id,job_category,job_list_name,company_name,job_city,job_state,indeed_salary,salary_range_high,salary_range_low
+0,"Business Intelligence Analyst","DATA ANALYST",BOEING,Seattle,WA,None,None,None
+1,"Data Analyst","DATA ANALYST","Catalysis LLC",Seattle,WA,"Estimated $62.5K – $79.1K a year",75K+,50K+
+2,"Data Analyst","DATA ANALYST","Seattle Childrens Hospital",Seattle,WA,None,None,None
+3,"Junior Data Analyst-Entry level","DATA ANALYST","PCS GLOBAL TECH",Seattle,WA,"$60,000 - $70,000 a year",50K+,50K+
+4,"DATA ANALYST","DATA ANALYST","University of Washington",Seattle,WA,None,None,None
+5,"Cloud Data Analyst","DATA ANALYST",Oracle,Seattle,WA,None,None,None
+6,"Marketing Data Analyst","DATA ANALYST",System1,Seattle,WA,"$85,000 - $115,000 a year",100K+,75K+
+7,"Data Analyst","DATA ANALYST",Promethean,Seattle,WA,"Estimated $79.8K – $101K a year",100K+,75K+
+8,"Data Analyst I","DATA ANALYST","Vera Whole Health",Seattle,WA,"Estimated $57.2K – $72.4K a year",50K+,50K+
+9,"Healthcare Data Analyst","DATA ANALYST",Milliman,Seattle,WA,"Estimated $58.3K – $73.9K a year",50K+,50K+
+10,"Data Analyst, Growth","DATA ANALYST","West CAP",Seattle,WA,"Estimated $80.3K – $102K a year",100K+,75K+
+11,"Data Analyst","DATA ANALYST","Electronic Arts",Seattle,WA,None,None,None
+12,"Business Data Analyst","DATA ANALYST","Cascade Public Media",Seattle,WA,"$70,500 - $80,000 a year",75K+,50K+
+13,"2022 Business Analyst FTE","DATA ANALYST","Amazon.com Services LLC",Seattle,WA,"$67,300 a year",50K+,50K+
+14,"SalesOps Data Analyst","DATA ANALYST",PMI,Seattle,WA,"Estimated $66.7K – $84.5K a year",75K+,50K+
+15,"DATA ANALYST","DATA ANALYST","Seattle Indian Health Board",Seattle,WA,"$60,000 - $70,000 a year",50K+,50K+
+16,"Business Data Analyst","DATA ANALYST",Pinkerton,Seattle,WA,None,None,None
+17,"Sr Gaming Data Analyst","DATA ANALYST",TEKsystems,Seattle,WA,None,None,None
+18,"Data Analyst, Investment Proposals - Parametric","DATA ANALYST","Morgan Stanley",Seattle,WA,None,None,None
+19,"Data Analyst","DATA ANALYST",Wellthy,Seattle,WA,"Estimated $82.4K – $104K a year",100K+,75K+
+20,"Pensions Data Analyst – DFF222-00000536","DATA ANALYST","Evergreen Technologies, LLC.",Seattle,WA,"Estimated $48.5K – $61.3K a year",50K+,50K-
+21,"Data Analyst","DATA ANALYST","Washington State Hospit",Seattle,WA,"Estimated $61.9K – $78.3K a year",75K+,50K+
+22,"DATA ANALYST, EVALUATIONS","DATA ANALYST","University of Washington",Seattle,WA,None,None,None
+23,"Business Data Analyst - Central Business Svcs","DATA ANALYST","Swedish Health Services",Seattle,WA,None,None,None
+24,"Data Analyst, Enterprise Systems","DATA ANALYST","Modus Closing",Seattle,WA,"Estimated $70.7K – $89.5K a year",75K+,50K+
+25,"Foundational Community Supports Data Analyst","DATA ANALYST",DESC,Seattle,WA,"$56,395 - $63,806 a year",50K+,50K+
+26,"Advanced Data Insight Analyst - Marketing Analyst","DATA ANALYST","Expedia Group",Seattle,WA,None,None,None
+27,"HR Data Analyst","DATA ANALYST","Committee for Children",Seattle,WA,"Estimated $58.8K – $74.4K a year",50K+,50K+
+28,"CLINICAL DATA ANALYST (FULL -TIME)","DATA ANALYST","University of Washington",Seattle,WA,None,None,None
+29,"Senior Business Analyst - International Digital","DATA ANALYST",Lululemon,Seattle,WA,"Estimated $107K – $135K a year",125K+,100K+
+30,"Product Insights Analyst","DATA ANALYST",Splunk,Seattle,WA,None,None,None
+31,"BUSINESS ANALYST","DATA ANALYST","University of Washington",Seattle,WA,None,None,None
+32,"Data Analyst 2 - Assortment","DATA ANALYST","Nordstrom Inc",Seattle,WA,None,None,None
+33,"BUSINESS SYSTEMS ANALYST","DATA ANALYST","University of Washington",Seattle,WA,None,None,None
+34,"Analyst, doxoINSIGHTS","DATA ANALYST",doxo,Seattle,WA,"Estimated $65.6K – $83K a year",75K+,50K+
+35,"Business Analyst, Business Architecture","DATA ANALYST",Tesla,Seattle,WA,None,None,None
+36,"Business Systems Analyst","DATA ANALYST","City of Seattle",Seattle,WA,None,None,None
+37,"Assistant/Associate Data Programmer and Analyst","DATA ANALYST","Puget Sound Regional Council",Seattle,WA,"$72,000 - $75,000 a year",75K+,50K+
+38,"Merchandising Business Analyst","DATA ANALYST",REI,Seattle,WA,"$65,000 - $127,500 a year",125K+,50K+
+39,"Auth0 Senior Data Analyst, Web Strategy","DATA ANALYST",Okta,Seattle,WA,"$103,000 a year",100K+,100K+
+40,"Business Intelligence Analyst - Operations Analytics","DATA ANALYST",Rover,Seattle,WA,"Estimated $76.8K – $97.2K a year",75K+,75K+
+41,"Data Analyst 1","DATA ANALYST","Nordstrom Inc",Seattle,WA,None,None,None
+42,"Junior Marketing Data Analyst","DATA ANALYST","Wheelhouse DMG",Seattle,WA,"Estimated $111K – $140K a year",125K+,100K+
+43,"Business Intelligence Analyst Sr","DATA ANALYST","Nordstrom Inc",Seattle,WA,None,None,None
+44,"Business Analyst, Prime Video","DATA ANALYST","Amazon.com Services LLC",Seattle,WA,None,None,None
+45,"Data Analyst - CustomerZero Team","DATA ANALYST",Qualtrics,Seattle,WA,None,None,None
+46,"Apple Media Products (AMP) - Big Data Analyst, Analytics Engineering","DATA ANALYST",Apple,Seattle,WA,None,None,None
+47,"DATA ANALYST, ENGAGEMENT","DATA ANALYST","University of Washington",Seattle,WA,None,None,None
+48,"Data Reporting and Analytics Consultant III","DATA ANALYST","Kaiser Permanente",Seattle,WA,None,None,None
+49,"Data Analyst","DATA ANALYST","Paula's Choice Skincare",Seattle,WA,"Estimated $68.7K – $86.9K a year",75K+,50K+
+50,"Data Analyst","DATA ANALYST",Pearson,Seattle,WA,None,None,None
+51,"Data Analyst","DATA ANALYST",Audantic,Seattle,WA,"Estimated $70.5K – $89.3K a year",75K+,50K+
+52,"Data Analyst - Demand Generation (Remote Eligible)","DATA ANALYST",Smartsheet,Seattle,WA,"Estimated $76.7K – $97.1K a year",75K+,75K+
+53,"Data Analyst","DATA ANALYST",Attunely,Seattle,WA,"Estimated $77.7K – $98.3K a year",75K+,75K+
+54,"Digital Product, Business Analyst","DATA ANALYST","JPMorgan Chase Bank, N.A.",Seattle,WA,None,None,None
+55,"Business Analyst, Product","DATA ANALYST",Circle,Seattle,WA,"Estimated $97.6K – $124K a year",100K+,75K+
+56,"Business Analyst","DATA ANALYST","Ballista Consulting",Seattle,WA,"Estimated $74.2K – $94K a year",75K+,50K+
+57,"Data Analyst, Enterprise Systems - Modus Title","DATA ANALYST",Compass,Seattle,WA,None,None,None
+58,"Data Analyst (REMOTE)","DATA ANALYST","Ryder System",Seattle,WA,None,None,None
+59,"Data Analyst","DATA ANALYST","Pacific Science Center",Seattle,WA,"$65,000 - $75,000 a year",75K+,50K+
+60,"Market Data Insights Analyst, Denmark (fluent Danish, SQL) - Apple Music","DATA ANALYST",Apple,Seattle,WA,None,None,None
+61,"GCDO Internal Data Product Analyst","DATA ANALYST","PRICE WATERHOUSE COOPERS",Seattle,WA,None,None,None
+62,"Data Analytics Consulting - Experienced Associate","DATA ANALYST","PRICE WATERHOUSE COOPERS",Seattle,WA,None,None,None
+63,"Data Analyst","DATA ANALYST",System1,Seattle,WA,"Estimated $72.1K - $91.3K a year",75K+,50K+
+64,"Senior Data Analyst - Product Analytics","DATA ANALYST",Salesforce,Seattle,WA,"$82,400 a year",75K+,75K+
+65,"Business Analyst (Vancouver OR Seattle)","DATA ANALYST",Lululemon,Seattle,WA,"Estimated $89.1K - $113K a year",100K+,75K+
+66,"Senior Data Analyst (North America Guest Insights) *Seattle","DATA ANALYST",Lululemon,Seattle,WA,"Estimated $89.4K - $113K a year",100K+,75K+
+67,"Senior Business Intelligence Analyst","DATA ANALYST",NBCUniversal,Seattle,WA,None,None,None
+68,"Business Intelligence Analyst","DATA ANALYST","Amazon Data Services, Inc.",Seattle,WA,None,None,None
+69,"Business Operations Analyst","DATA ANALYST",McKinstry,Seattle,WA,"Estimated $73.2K - $92.8K a year",75K+,50K+
+70,"Business Analyst, People Analytics","DATA ANALYST",Convoy,Seattle,WA,"Estimated $73.2K - $92.6K a year",75K+,50K+
+71,"Business Intelligence Analyst - Central Analytics -All Levels","DATA ANALYST","Blue Origin",Seattle,WA,None,None,None
+72,"Reporting & Analytics, Technical Analyst","DATA ANALYST",Meta,Seattle,WA,None,None,None
+73,"Data Analytics Associate- Human Services","DATA ANALYST","Mathematica Policy Research",Seattle,WA,"$55,000 - $70,000 a year",50K+,50K+
+74,"Senior Associate, Data & Analytics Consultant","DATA ANALYST",KPMG,Seattle,WA,None,None,None

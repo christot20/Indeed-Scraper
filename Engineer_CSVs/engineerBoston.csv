@@ -1,0 +1,76 @@
+id,job_category,job_list_name,company_name,job_city,job_state,indeed_salary,salary_range_high,salary_range_low
+675,"Data Warehouse Engineer","DATA ENGINEER","Analysis Group, Inc.",Boston,MA,"Estimated $107K - $135K a year",125K+,100K+
+676,"Principal Data Engineer","DATA ENGINEER","Avidity Solutions",Boston,MA,"$200,000 - $250,000 a year",200K+,200K+
+677,"Data & Tools Engineer","DATA ENGINEER","Homesite Insurance",Boston,MA,None,None,None
+678,"Data Engineer - Telecommute","DATA ENGINEER","UnitedHealth Group",Boston,MA,None,None,None
+679,"Data Engineer (Open to remote work, except the following locations: SD, VT, and WV)","DATA ENGINEER",Converse,Boston,MA,"$75,000 a year",75K+,75K+
+680,"Principal Data Engineer- Fully Remote- Up to $190k","DATA ENGINEER","Michael Page",Boston,MA,"$160,000 - $190,000 a year",150K+,150K+
+681,"Data Platform Engineer","DATA ENGINEER","JPMorgan Chase Bank, N.A.",Boston,MA,None,None,None
+682,"Data Analytics Engineer","DATA ENGINEER",Noodle,Boston,MA,"Estimated $106K - $135K a year",125K+,100K+
+683,"Data Engineer - Telecommute","DATA ENGINEER",Optum,Boston,MA,None,None,None
+684,"Data Engineer","DATA ENGINEER",Amtec,Boston,MA,"$36 - $65 an hour",125K+,50K+
+685,"Data engineer with data bricks","DATA ENGINEER",DataPattern,Boston,MA,"$60 - $70 an hour",125K+,100K+
+686,"Senior Data Engineer","DATA ENGINEER","Northeastern University",Boston,MA,None,None,None
+687,"Data Engineer, Spark","DATA ENGINEER",Deloitte,Boston,MA,None,None,None
+688,"Data Engineer - Remote - $140k/yr - Industrial Conglomerate","DATA ENGINEER","Michael Page",Boston,MA,"$130,000 - $140,000 a year",125K+,125K+
+689,"Data Engineer","DATA ENGINEER","Massachusetts General Hospital(MGH)",Boston,MA,None,None,None
+690,"Senior Data Engineer","DATA ENGINEER","Fidelity Investments",Boston,MA,None,None,None
+691,"Backend Software Development Engineer (All Levels) - C360 Data, Engagement & Search Engineering","DATA ENGINEER",Salesforce,Boston,MA,"$98,900 a year",75K+,75K+
+692,"Data Engineer - Data Science Platforms & Infrastructure","DATA ENGINEER","S&P Global",Boston,MA,"$91,500 - $190,100 a year",150K+,75K+
+693,"Principal Data Engineer","DATA ENGINEER","Fidelity Investments",Boston,MA,None,None,None
+694,"Sr. Data Engineer","DATA ENGINEER",Glassdoor,Boston,MA,"$130,500 - $195,700 a year",150K+,125K+
+695,"Senior Data Engineer","DATA ENGINEER",Toast,Boston,MA,"Estimated $124K - $157K a year",150K+,100K+
+696,"Data Engineer (Multiple Levels)","DATA ENGINEER","REsurety, Inc.",Boston,MA,"Estimated $122K - $155K a year",150K+,100K+
+697,"Sr Data Analytics Engineer - Surgical Robotics","DATA ENGINEER",Medtronic,Boston,MA,None,None,None
+698,"Sr Digital Health Data Engineer (JRD DS)","DATA ENGINEER","Johnson & Johnson",Boston,MA,None,None,None
+699,"Senior Data Engineer, Personalization","DATA ENGINEER",Spotify,Boston,MA,"Estimated $124K - $157K a year",150K+,100K+
+700,"Senior Data Engineer - Remote Opportunity","DATA ENGINEER",Pearson,Boston,MA,None,None,None
+701,"Senior Data Engineer","DATA ENGINEER",Mavrck,Boston,MA,"Estimated $128K - $162K a year",150K+,125K+
+702,"Data Engineer","DATA ENGINEER","Reach Platform, Inc.",Boston,MA,"Estimated $97.9K - $124K a year",100K+,75K+
+703,"Big Data Engineer - Opportunity for Working Remotely Boston, MA","DATA ENGINEER",VMware,Boston,MA,None,None,None
+704,"149: Data Engineer","DATA ENGINEER",Dataspace,Boston,MA,"$125,000 - $145,000 a year",125K+,125K+
+705,"Software Development Engineer, EFS - Data Platform","DATA ENGINEER","Amazon Dev Center U.S., Inc.",Boston,MA,None,None,None
+706,"Senior Software Engineer, Data Platform","DATA ENGINEER",OM1,Boston,MA,"Estimated $135K – $172K a year",150K+,125K+
+707,"Data Engineer Consultant","DATA ENGINEER",Accenture,Boston,MA,None,None,None
+708,"Software Engineer, Data Platform Engineering","DATA ENGINEER",Wayfair,Boston,MA,None,None,None
+709,"Software/Data Engineer","DATA ENGINEER","Harvard University",Boston,MA,None,None,None
+710,"Senior Software Development Engineer at AWS Data Exchange, AWS Data Exchange","DATA ENGINEER","Amazon Dev Center U.S., Inc.",Boston,MA,None,None,None
+711,"Senior Software Engineer, Data Infrastructure (Blockchain Startup)","DATA ENGINEER","Recruiting From Scratch",Boston,MA,"$125,000 - $175,000 a year",150K+,125K+
+712,"Senior Data Platform Engineer","DATA ENGINEER",Mode,Boston,MA,"$155,000 - $225,000 a year",200K+,150K+
+713,"Data Engineer, Analytics & Cognitive - Consultant (SQL/Python)","DATA ENGINEER",Deloitte,Boston,MA,None,None,None
+714,"Data Engineer","DATA ENGINEER","Azurity Pharmaceuticals",Boston,MA,"Estimated $104K – $132K a year",125K+,100K+
+715,"Principal Software Data Engineer","DATA ENGINEER",Genesys,Boston,MA,None,None,None
+716,"Big Data Platform Development- Senior/Lead/Principal Engineer","DATA ENGINEER",Salesforce,Boston,MA,"$98,900 a year",75K+,75K+
+717,"Senior Software Engineer - Onboard Data & Application Software","DATA ENGINEER",Motional,Boston,MA,None,None,None
+718,"Data Engineer (To Support Cancer Researchers)","DATA ENGINEER","Dana-Farber Cancer Institute",Boston,MA,"Estimated $85.2K – $108K a year",100K+,75K+
+719,"Sr. Data Warehouse Engineer","DATA ENGINEER",CrunchTime,Boston,MA,"Estimated $112K – $142K a year",125K+,100K+
+720,"Experienced Data Engineer","DATA ENGINEER","Liberty Mutual Insurance",Boston,MA,"$97,700 - $155,200 a year",150K+,75K+
+721,"Marketing Enablement Data Software Engineer II - SMB","DATA ENGINEER",Indeed,Boston,MA,"$109,000 - $159,000 a year",150K+,100K+
+722,"Data Engineer, Analytics","DATA ENGINEER","Facebook App",Boston,MA,None,None,None
+723,"Senior Data Engineer","DATA ENGINEER",Angi,Boston,MA,None,None,None
+724,"Senior Data Engineer","DATA ENGINEER",meQuilibrium,Boston,MA,"Estimated $127K - $161K a year",150K+,125K+
+725,"Big Data - Senior Distributed Systems Engineer","DATA ENGINEER","S&P Global",Boston,MA,"$83,200 - $190,100 a year",150K+,75K+
+726,"Data Engineer/Senior Data Engineer","DATA ENGINEER",Tive,Boston,MA,"Estimated $115K - $145K a year",125K+,100K+
+727,"Principal Data Engineer","DATA ENGINEER","Akili Interactive",Boston,MA,"Estimated $149K - $188K a year",150K+,125K+
+728,"Support Engineer, ASK International Data","DATA ENGINEER","Amazon.com Services LLC",Boston,MA,None,None,None
+729,"Data Engineer","DATA ENGINEER",Chewy,Boston,MA,None,None,None
+730,"Data Engineer","DATA ENGINEER","Amazon Web Services, Inc.",Boston,MA,None,None,None
+731,"Data Engineer (SQL, Azure - MA)","DATA ENGINEER",BlueGranite,Boston,MA,"$110,000 - $170,000 a year",150K+,100K+
+732,"Data Engineer Senior Analyst","DATA ENGINEER",Accenture,Boston,MA,None,None,None
+733,"Data and AI Engineer, Principal","DATA ENGINEER","PTC Inc.",Boston,MA,"$97,000 a year",75K+,75K+
+734,"Sr. Data Engineer","DATA ENGINEER",Lantern,Boston,MA,"Estimated $129K - $164K a year",150K+,125K+
+735,"Senior Data Platform Engineer","DATA ENGINEER",Tia,Boston,MA,"Estimated $146K - $185K a year",150K+,125K+
+736,"Data Engineer Manufacturing, Sr. Consultant - Analytics and Cognitive","DATA ENGINEER",Deloitte,Boston,MA,None,None,None
+737,"Senior Big Data Engineer","DATA ENGINEER","Integral Ad Science",Boston,MA,"Estimated $144K - $182K a year",150K+,125K+
+738,"Senior Software Engineer - Data Engineering","DATA ENGINEER","Optimus Ride",Boston,MA,"Estimated $125K - $159K a year",150K+,125K+
+739,"Staff Engineer - Cloud Data - Opportunity for Working Remotely Boston, MA","DATA ENGINEER",VMware,Boston,MA,None,None,None
+740,"Data Engineer II - Remote","DATA ENGINEER","Homesite Insurance",Boston,MA,"Up to $162,000 a year",150K+,150K+
+741,"Senior Data Engineer (remote)","DATA ENGINEER",Thoughtworks,Boston,MA,"Estimated $145K - $183K a year",150K+,125K+
+742,"Senior Data Engineer","DATA ENGINEER","Embark Veterinary",Boston,MA,"Estimated $130K - $164K a year",150K+,125K+
+743,"Senior Data Engineer","DATA ENGINEER",iptiQ,Boston,MA,"Estimated $113K - $143K a year",125K+,100K+
+744,"Senior Software/Data Engineer","DATA ENGINEER","Harvard University",Boston,MA,None,None,None
+745,"Senior Data Engineer at Startup ($1.3 B Valuation)","DATA ENGINEER","Recruiting From Scratch",Boston,MA,"$100,000 - $200,000 a year",200K+,100K+
+746,"Senior Data Engineer","DATA ENGINEER","Natixis Investment Managers",Boston,MA,"Estimated $130K - $165K a year",150K+,125K+
+747,"Principal Engineer, Data Engineering","DATA ENGINEER",Wayfair,Boston,MA,None,None,None
+748,"Senior Software Engineer, Data Integration Platform","DATA ENGINEER",Wayfair,Boston,MA,None,None,None
+749,"PwC Technology - Data Engineer","DATA ENGINEER","PRICE WATERHOUSE COOPERS",Boston,MA,None,None,None

@@ -1,0 +1,76 @@
+id,job_category,job_list_name,company_name,job_city,job_state,indeed_salary,salary_range_high,salary_range_low
+600,"Data Engineer","DATA ENGINEER","DCI Solutions","San Francisco",CA,"$175,000 - $225,000 a year",200K+,150K+
+601,"Frontend Engineer - Marketplace Intelligence and Data","DATA ENGINEER",Uber,"San Francisco",CA,None,None,None
+602,"Data Engineer - Geospatial Modeling","DATA ENGINEER",Envision,"San Francisco",CA,"Estimated $121K - $153K a year",150K+,100K+
+603,"Data Engineer","DATA ENGINEER",DoorDash,"San Francisco",CA,None,None,None
+604,"Data Engineer - Remote","DATA ENGINEER","Insight Global","San Francisco",CA,None,None,None
+605,"Data Engineer","DATA ENGINEER",Glassdoor,"San Francisco",CA,"Estimated $111K - $141K a year",125K+,100K+
+606,"Data Engineer","DATA ENGINEER",Twilio,"San Francisco",CA,"Estimated $127K - $161K a year",150K+,125K+
+607,"Data Engineer","DATA ENGINEER",Airtable,"San Francisco",CA,"Estimated $117K - $148K a year",125K+,100K+
+608,"Backend Software Development Engineer (All Levels) - C360 Data, Engagement & Search Engineering","DATA ENGINEER",Salesforce,"San Francisco",CA,"$98,900 a year",75K+,75K+
+609,"Software Engineer - Data","DATA ENGINEER",Twitch,"San Francisco",CA,None,None,None
+610,"Sales Engineer, Data Management, Google Cloud","DATA ENGINEER",Google,"San Francisco",CA,None,None,None
+611,"Associate Data Engineer","DATA ENGINEER",Ubisoft,"San Francisco",CA,None,None,None
+612,"Data Engineer (m/f/d) Remote","DATA ENGINEER",360dialog,"San Francisco",CA,"$40,000 - $100,000 a year",100K+,50K-
+613,"Bloomberg Data Engineer, DataSF (1043)","DATA ENGINEER","City and County of San Francisco","San Francisco",CA,"$132,574 - $166,790 a year",150K+,125K+
+614,"Staff Data Infrastructure Engineer","DATA ENGINEER",Databricks,"San Francisco",CA,"Estimated $130K - $164K a year",150K+,125K+
+615,"Data Engineer","DATA ENGINEER","Human Interest","San Francisco",CA,"Estimated $119K – $150K a year",150K+,100K+
+616,"Senior Data Engineer","DATA ENGINEER",Discord,"San Francisco",CA,"$184,700 a year",150K+,150K+
+617,"Software Engineer, Data - Video Distribution","DATA ENGINEER","Twitch Interactive, Inc.","San Francisco",CA,None,None,None
+618,"Data Engineer","DATA ENGINEER","Cisco Meraki","San Francisco",CA,None,None,None
+619,"Software Engineer, TikTok Data Access Architecture","DATA ENGINEER",TikTok,"San Francisco",CA,"Estimated $103K – $130K a year",125K+,100K+
+620,"Data Engineer, Finance Data Governance and Protection","DATA ENGINEER",Google,"San Francisco",CA,None,None,None
+621,"Data Engineer","DATA ENGINEER",Twitch,"San Francisco",CA,None,None,None
+622,"Senior Software Engineer, Data Products","DATA ENGINEER",Discord,"San Francisco",CA,"$167,400 a year",150K+,150K+
+623,"Data Engineer","DATA ENGINEER",Niantic,"San Francisco",CA,"Estimated $115K – $146K a year",125K+,100K+
+624,"Software Engineer - Data Engineer","DATA ENGINEER","Resonance AI","San Francisco",CA,"Estimated $122K – $155K a year",150K+,100K+
+625,"Software Engineer, Data (Remote)","DATA ENGINEER","Little Otter","San Francisco",CA,"Estimated $116K – $147K a year",125K+,100K+
+626,"Data Engineer","DATA ENGINEER",SingleStore,"San Francisco",CA,"Estimated $118K – $150K a year",150K+,100K+
+627,"PySpark Data Engineer, Consultant","DATA ENGINEER",Deloitte,"San Francisco",CA,None,None,None
+628,"Data Engineer","DATA ENGINEER",NorthOne,"San Francisco",CA,"Estimated $121K – $153K a year",150K+,100K+
+629,"Data Engineer","DATA ENGINEER",FutureRecruit,"San Francisco",CA,"Estimated $89K – $113K a year",100K+,75K+
+630,"Software Engineer, Backend (Data Foundations)","DATA ENGINEER",Affirm,"San Francisco",CA,"Estimated $67K – $84.8K a year",75K+,50K+
+631,"Software Engineer, Big Data Matching","DATA ENGINEER",LiveRamp,"San Francisco",CA,"Estimated $120K – $152K a year",150K+,100K+
+632,"Data Engineer","DATA ENGINEER",CyberCoders,"San Francisco",CA,"$150,000 - $200,000 a year",200K+,150K+
+633,"Data Engineer, Analytics - Remote","DATA ENGINEER","Unstoppable Domains","San Francisco",CA,"Estimated $121K – $154K a year",150K+,100K+
+634,"Software Engineer - Data Science","DATA ENGINEER","Embark Trucks","San Francisco",CA,"Estimated $131K – $166K a year",150K+,125K+
+635,"Platform Engineer (Data Platform)","DATA ENGINEER","Jam City","San Francisco",CA,"Estimated $135K – $172K a year",150K+,125K+
+636,"Software Engineer - Data and Simulation","DATA ENGINEER",Xwing,"San Francisco",CA,"Estimated $128K – $162K a year",150K+,125K+
+637,"Data Modeling Engineer","DATA ENGINEER","Swish Analytics","San Francisco",CA,"Estimated $130K – $164K a year",150K+,125K+
+638,"Senior Data Engineer","DATA ENGINEER",Splunk,"San Francisco",CA,"$115,000 a year",100K+,100K+
+639,"Software Engineer III, Big Data","DATA ENGINEER",6sense,"San Francisco",CA,"Estimated $133K – $168K a year",150K+,125K+
+640,"Senior Data Engineer/Senior Analyst Engineer","DATA ENGINEER",Splunk,"San Francisco",CA,None,None,None
+641,"Staff Engineer, Data Engineering","DATA ENGINEER",Ripple,"San Francisco",CA,"Estimated $149K – $188K a year",150K+,125K+
+642,"Data Engineer","DATA ENGINEER",Brave,"San Francisco",CA,"Estimated $121K – $154K a year",150K+,100K+
+643,"Software Engineer (Data) - Data Experiences - Remote Friendly","DATA ENGINEER",Unit21,"San Francisco",CA,"Estimated $133K – $169K a year",150K+,125K+
+644,"Data Engineer","DATA ENGINEER","Swish Analytics","San Francisco",CA,"Estimated $115K – $145K a year",125K+,100K+
+645,"Data Foundation Engineer - Global Data","DATA ENGINEER",DocuSign,"San Francisco",CA,None,None,None
+646,"Software Engineer, Data Platform","DATA ENGINEER",Notion,"San Francisco",CA,"Estimated $143K - $181K a year",150K+,125K+
+647,"Data Platform Engineer","DATA ENGINEER","Stitch Fix","San Francisco",CA,"Estimated $135K - $171K a year",150K+,125K+
+648,"Data Analytics Engineer","DATA ENGINEER","University of California San Francisco","San Francisco",CA,None,None,None
+649,"Software Engineer, Data Platform","DATA ENGINEER",Sift,"San Francisco",CA,"Estimated $144K - $183K a year",150K+,125K+
+650,"Senior Software Engineer, Data (Remote Friendly)","DATA ENGINEER","Current Job Openings at Vouch Insurance","San Francisco",CA,"Estimated $124K - $157K a year",150K+,100K+
+651,"Backend Engineer - Data","DATA ENGINEER",Mux,"San Francisco",CA,"Estimated $144K - $182K a year",150K+,125K+
+652,"Data Science - Analytics Engineer","DATA ENGINEER","Resonance AI","San Francisco",CA,"Estimated $123K - $156K a year",150K+,100K+
+653,"Senior Data Engineer – Analytics & Visualization","DATA ENGINEER","PlayStation Global","San Francisco",CA,"Estimated $134K - $170K a year",150K+,125K+
+654,"Software Engineer, Data Infrastructure","DATA ENGINEER","Komodo Health","San Francisco",CA,"Estimated $130K - $165K a year",150K+,125K+
+655,"Big Data Engineer - PySpark","DATA ENGINEER","Logic20/20 Inc.","San Francisco",CA,"Estimated $126K - $160K a year",150K+,125K+
+656,"Software Engineer/Data Engineer (Multiple Levels - Multiple Locations) (Evergreen)","DATA ENGINEER","U.S. Bank","San Francisco",CA,"$106,760 - $125,600 a year",125K+,100K+
+657,"Software Engineer, Data Platform","DATA ENGINEER",Go2Andaman,"San Francisco",CA,"Estimated $136K - $173K a year",150K+,125K+
+658,"Software Engineer (All Levels) Marketing Cloud Data, Infrastructure and Intelligence Platform","DATA ENGINEER",Salesforce,"San Francisco",CA,None,None,None
+659,"Software Engineer - Data Engineer","DATA ENGINEER","Transform Data","San Francisco",CA,"Estimated $122K - $155K a year",150K+,100K+
+660,"Staff Software Engineer, Finance Data Services","DATA ENGINEER",Uber,"San Francisco",CA,None,None,None
+661,"Data & Visualization Engineer","DATA ENGINEER","Levi Strauss & Co.","San Francisco",CA,None,None,None
+662,"Marketing Data Engineer","DATA ENGINEER",Samsara,"San Francisco",CA,None,None,None
+663,"Data Engineer","DATA ENGINEER","Twitch Interactive, Inc.","San Francisco",CA,None,None,None
+664,"Data Engineer, Measurement and Attribution","DATA ENGINEER",Square,"San Francisco",CA,None,None,None
+665,"eCommerce Data Engineer","DATA ENGINEER",PepsiCo,"San Francisco",CA,None,None,None
+666,"Senior Data Engineer - Remote","DATA ENGINEER",CBS,"San Francisco",CA,None,None,None
+667,"Data Engineer","DATA ENGINEER",Dovenmuehle,"San Francisco",CA,"Estimated $117K – $148K a year",125K+,100K+
+668,"Data Engineer","DATA ENGINEER",Notion,"San Francisco",CA,"Estimated $146K – $186K a year",150K+,125K+
+669,"Data Engineer","DATA ENGINEER","StreetLight Data","San Francisco",CA,"Estimated $120K – $152K a year",150K+,100K+
+670,"Associate Data & Machine Learning Engineer","DATA ENGINEER","Amazon Web Services, Inc.","San Francisco",CA,"$82,600 a year",75K+,75K+
+671,"Associate Data Science Engineer","DATA ENGINEER","Gap Inc.","San Francisco",CA,None,None,None
+672,"Data Engineer, BPE","DATA ENGINEER",Meta,"San Francisco",CA,None,None,None
+673,"Data Science - Analytics Engineer","DATA ENGINEER","Transform Data","San Francisco",CA,"Estimated $124K – $157K a year",150K+,100K+
+674,"PwC Technology - Data Engineer","DATA ENGINEER","PRICE WATERHOUSE COOPERS","San Francisco",CA,None,None,None

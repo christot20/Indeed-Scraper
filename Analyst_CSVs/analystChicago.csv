@@ -1,0 +1,76 @@
+id,job_category,job_list_name,company_name,job_city,job_state,indeed_salary,salary_range_high,salary_range_low
+300,"Data Management Analyst","DATA ANALYST",Avant,Chicago,IL,"$85,000 - $105,000 a year",100K+,75K+
+301,"Data Risk Analyst","DATA ANALYST",Avant,Chicago,IL,None,None,None
+302,"Analyst, Data & Analytics","DATA ANALYST","BMO Harris Bank",Chicago,IL,None,None,None
+303,"Data Analyst (North of Chicago)","DATA ANALYST",Uline,Chicago,IL,None,None,None
+304,"Business Intelligence Analyst","DATA ANALYST",Avant,Chicago,IL,"$60,000 - $70,000 a year",50K+,50K+
+305,"Business Intelligence Analyst","DATA ANALYST",BOEING,Chicago,IL,None,None,None
+306,"Remote Data Analyst","DATA ANALYST",Kelly,Chicago,IL,"$54 an hour",100K+,100K+
+307,"Data Analyst","DATA ANALYST",Ascension,Chicago,IL,None,None,None
+308,"Data Analyst","DATA ANALYST","ATHENA Consulting",Chicago,IL,"$26 an hour",50K+,50K+
+309,"Senior Data Analyst","DATA ANALYST",Shortcut,Chicago,IL,"$90,000 - $110,000 a year",100K+,75K+
+310,"Data Analyst (remote role) - D22-006399","DATA ANALYST","Evergreen Technologies, LLC.",Chicago,IL,"Estimated $68K - $86K a year",75K+,50K+
+311,"Supply Chain Data Analyst","DATA ANALYST","Great Dane",Chicago,IL,None,None,None
+312,"Entry Level Business Analyst","DATA ANALYST","AMGTech Solutions",Chicago,IL,"$65,000 - $75,000 a year",75K+,50K+
+313,"Data Analyst I - Remote Available","DATA ANALYST",Envolve-MPC,Chicago,IL,None,None,None
+314,"Data Analyst","DATA ANALYST","Indus Consulting Inc",Chicago,IL,"$75,000 - $90,000 a year",75K+,75K+
+315,"Technical Data Analyst","DATA ANALYST","Baker Tilly US, LLP",Chicago,IL,None,None,None
+316,"Sr. Business Analyst, Central Ops (Data Ops) - Uber Freight","DATA ANALYST",Uber,Chicago,IL,None,None,None
+317,"Data Analyst","DATA ANALYST","C.H. Robinson",Chicago,IL,None,None,None
+318,"Data Analyst 3 - Inventory Flow - HYBRID","DATA ANALYST","Nordstrom Inc",Chicago,IL,None,None,None
+319,"Analyst, Warehouse Data","DATA ANALYST",Abbvie,Chicago,IL,None,None,None
+320,"Data Analyst","DATA ANALYST","Ogletree Deakins",Chicago,IL,"Estimated $54.3K - $68.7K a year",50K+,50K+
+321,"Data Analyst","DATA ANALYST","Jenner & Block LLP",Chicago,IL,"Estimated $53K - $67.2K a year",50K+,50K+
+322,"People Data Analyst","DATA ANALYST","3Q Digital",Chicago,IL,"Estimated $60.9K - $77.1K a year",75K+,50K+
+323,"Data Governance Analyst","DATA ANALYST","Home Partners of America Inc",Chicago,IL,None,None,None
+324,"HR Data & Reporting Analyst","DATA ANALYST","Northern Trust Corp.",Chicago,IL,None,None,None
+325,"Business Analyst","DATA ANALYST","Wintrust Financial Corporation",Chicago,IL,None,None,None
+326,"Business Analyst","DATA ANALYST",Dyson,Chicago,IL,None,None,None
+327,"Business Analyst-Data","DATA ANALYST","Backstop Solutions Group LLC",Chicago,IL,"Estimated $72.4K - $91.6K a year",75K+,50K+
+328,"Data Analyst","DATA ANALYST","Peapod Digital Labs",Chicago,IL,None,None,None
+329,"Business Intelligence Analyst","DATA ANALYST","The University of Chicago Medicine",Chicago,IL,None,None,None
+330,"Associate eCommerce Data Analyst (North of Chicago)","DATA ANALYST",Uline,Chicago,IL,None,None,None
+331,"Analyst, Reporting & Analytics","DATA ANALYST",UScellular,Chicago,IL,None,None,None
+332,"Data Reporting Analyst","DATA ANALYST",Ahead,Chicago,IL,"Estimated $50.5K - $63.9K a year",50K+,50K+
+333,"Entry Level Business Analyst","DATA ANALYST",Microflexinfra,Chicago,IL,"$62,000 - $70,000 a year",50K+,50K+
+334,"Technical Program Specialist - Data Analytics","DATA ANALYST",Uber,Chicago,IL,None,None,None
+335,"Entry Level Business Analyst","DATA ANALYST",BACloudSystems,Chicago,IL,"$60,000 - $70,000 a year",50K+,50K+
+336,"Entry Level Business Analyst","DATA ANALYST",Weboptimix,Chicago,IL,"$62,000 - $70,000 a year",50K+,50K+
+337,"Analyst, HR Data Analytics","DATA ANALYST","Northern Trust Corp.",Chicago,IL,None,None,None
+338,"Analyst I","DATA ANALYST",Angi,Chicago,IL,None,None,None
+339,"Analyst, Data Analysis","DATA ANALYST",TransUnion,Chicago,IL,None,None,None
+340,"Business Intelligence Analyst","DATA ANALYST","Creative Financial Staffing",Chicago,IL,"$45,000 - $50,000 a year",50K+,50K-
+341,"Analyst, HR Analytics and Insights","DATA ANALYST","The University of Chicago Medicine",Chicago,IL,None,None,None
+342,"Data and Reporting Analyst","DATA ANALYST","Lawndale Christian Health Center",Chicago,IL,"Estimated $80K - $101K a year",100K+,75K+
+343,"Business Analyst I – Reporting & Data Analytics","DATA ANALYST","Illinois Institute of Technology",Chicago,IL,"Estimated $53.2K - $67.4K a year",50K+,50K+
+344,Analyst,"DATA ANALYST","Compass Lexecon",Chicago,IL,"Estimated $61.7K - $78.1K a year",75K+,50K+
+345,"Research Data Analyst Associate","DATA ANALYST","Northwestern University",Chicago,IL,None,None,None
+346,"Data Analyst (REMOTE)","DATA ANALYST","Ryder System",Chicago,IL,None,None,None
+347,"Analytics & Reporting Analyst","DATA ANALYST","Blue Cross Blue Shield of IL, MT, NM, OK & TX",Chicago,IL,None,None,None
+348,"Analyst, CPG Insights & Analytics","DATA ANALYST",NielsenIQ,Chicago,IL,None,None,None
+349,"Fleet Data Analyst","DATA ANALYST",PepsiCo,Chicago,IL,None,None,None
+350,"Forecasting Analyst","DATA ANALYST",TTX,Chicago,IL,None,None,None
+351,"Transportation Analyst","DATA ANALYST","Nordstrom Inc",Chicago,IL,None,None,None
+352,"Business Technical Analyst","DATA ANALYST","McDonald's Corporation",Chicago,IL,"Estimated $71.6K – $90.6K a year",75K+,50K+
+353,"Digital Insights Lead - Supply Chain","DATA ANALYST",MARS,Chicago,IL,None,None,None
+354,"Data Analyst","DATA ANALYST","Ann & Robert H. Lurie Children’s Hospital of Chicago",Chicago,IL,None,None,None
+355,"Analyst – Enterprise Data Analytics","DATA ANALYST","United Airlines Inc.",Chicago,IL,None,None,None
+356,"Data Analyst, Marketing","DATA ANALYST",#TeamGoHealth,Chicago,IL,None,None,None
+357,"Data Analyst 2 – Strategic Analytics","DATA ANALYST",Nordstrom,Chicago,IL,"Up to $112,700 a year",100K+,100K+
+358,"Specialty Reporting Analyst","DATA ANALYST",WALGREENS,Chicago,IL,None,None,None
+359,"Collections Business Analyst","DATA ANALYST","The Art Institute of Chicago",Chicago,IL,"Estimated $62.8K – $79.6K a year",75K+,50K+
+360,"Senior Analyst - Operations Data Analytics","DATA ANALYST","United Airlines Inc.",Chicago,IL,None,None,None
+361,"Operations Analyst - Customer Service (North of Chicago)","DATA ANALYST",Uline,Chicago,IL,None,None,None
+362,"Business Analyst (North of Chicago)","DATA ANALYST",Uline,Chicago,IL,None,None,None
+363,"Data Specialist","DATA ANALYST","HighTower Advisors",Chicago,IL,"Estimated $66K - $83.6K a year",75K+,50K+
+364,"Risk Analyst","DATA ANALYST","HighTower Advisors",Chicago,IL,"Estimated $56.7K - $71.7K a year",50K+,50K+
+365,"Data Analyst 2 - Collections Strategy - Remote","DATA ANALYST","Nordstrom Card Services Inc",Chicago,IL,None,None,None
+366,"Business Analyst - Research","DATA ANALYST","Ann & Robert H. Lurie Children’s Hospital of Chicago",Chicago,IL,None,None,None
+367,"Data Analytics Experienced Associate","DATA ANALYST","PRICE WATERHOUSE COOPERS",Chicago,IL,None,None,None
+368,Analyst,"DATA ANALYST","Northwestern Medicine",Chicago,IL,None,None,None
+369,"Business Analyst (Hybrid)","DATA ANALYST","DePaul University",Chicago,IL,"Estimated $69.7K - $88.3K a year",75K+,50K+
+370,"Associate Business Analyst, Law School","DATA ANALYST","Northwestern University",Chicago,IL,None,None,None
+371,"Business Information Analyst II","DATA ANALYST",Anthem,Chicago,IL,None,None,None
+372,"Strategic Analyst","DATA ANALYST","Regional Transportation Authority Chicago",Chicago,IL,"$54,676 - $82,016 a year",75K+,50K+
+373,"Business Systems Analyst","DATA ANALYST","The University of Chicago Medicine",Chicago,IL,None,None,None
+374,"Digital Solutions Business Analyst","DATA ANALYST","Fidelity Investments",Chicago,IL,None,None,None

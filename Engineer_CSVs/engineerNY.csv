@@ -1,0 +1,76 @@
+id,job_category,job_list_name,company_name,job_city,job_state,indeed_salary,salary_range_high,salary_range_low
+525,"Data Engineer","DATA ENGINEER",Engelhart,"New York",NY,"$130,000 - $200,000 a year",200K+,125K+
+526,"Senior Data Engineer","DATA ENGINEER","Cityblock Health","New York",NY,"Estimated $121K – $153K a year",150K+,100K+
+527,"Data and Systems Engineer","DATA ENGINEER","Simons Foundation","New York",NY,"Estimated $97.7K – $124K a year",100K+,75K+
+528,"Data Engineer, Newsroom Data Products","DATA ENGINEER","Dow Jones","New York",NY,None,None,None
+529,"Data Engineer","DATA ENGINEER","Brookfield Renewable Energy US","New York",NY,"Estimated $90K – $114K a year",100K+,75K+
+530,"AI/ML - Software Development Engineer, Data Products and Services","DATA ENGINEER",Apple,"New York",NY,None,None,None
+531,"Snowflake Data Engineer - NYC Based","DATA ENGINEER","Roc Search","New York",NY,"$160,000 - $190,000 a year",150K+,150K+
+532,"Data Engineer","DATA ENGINEER","Michael Page","New York",NY,None,None,None
+533,"Jr Data Python Engineer","DATA ENGINEER","Insight Global","New York",NY,"$100,000 - $115,000 a year",100K+,100K+
+534,"REMOTE Data Engineer","DATA ENGINEER",CyberCoders,"New York",NY,"$140,000 - $170,000 a year",150K+,125K+
+535,"Data Engineer","DATA ENGINEER",UpLadder,"New York",NY,"$171,000 - $180,000 a year",150K+,150K+
+536,"Data Engineer","DATA ENGINEER","The New York Times","New York",NY,None,None,None
+537,"Data Engineer","DATA ENGINEER",Hinge,"New York",NY,None,None,None
+538,"Data Engineer August 2022 Start Date","DATA ENGINEER",Capgemini,"New York",NY,None,None,None
+539,"Software Engineer - Data","DATA ENGINEER",Twitch,"New York",NY,None,None,None
+540,"Engineer Sales Specialist, Buyside Enterprise Financial Data & Analytics","DATA ENGINEER",Bloomberg,"New York",NY,None,None,None
+541,"Data Engineer - Telecommute","DATA ENGINEER","UnitedHealth Group","New York",NY,None,None,None
+542,"Data Engineer","DATA ENGINEER",DoorDash,"New York",NY,None,None,None
+543,"Software Engineer 2 (Data)","DATA ENGINEER",Comcast,"New York",NY,None,None,None
+544,"Data Engineer","DATA ENGINEER",ektello,"New York",NY,"$75 - $85 an hour",150K+,125K+
+545,"Data Engineer (REMOTE)","DATA ENGINEER",CBS,"New York",NY,None,None,None
+546,"Data Engineer, Amazon Shopping Videos, Amazon Shopping Videos","DATA ENGINEER","Amazon.com Services LLC","New York",NY,None,None,None
+547,"Senior Data Engineer","DATA ENGINEER",Nespresso,"New York",NY,None,None,None
+548,"Sustainable Finance Data Engineer","DATA ENGINEER","Morgan Stanley","New York",NY,None,None,None
+549,"Data Analytics Engineer","DATA ENGINEER",Noodle,"New York",NY,"Estimated $112K – $142K a year",125K+,100K+
+550,"Data Engineer","DATA ENGINEER","Infinity Consulting Solutions, Inc.","New York",NY,"$125,000 - $150,000 a year",150K+,125K+
+551,"Data Engineer","DATA ENGINEER",Amex,"New York",NY,None,None,None
+552,"Lead Data Engineer ( Remote or Hybrid )","DATA ENGINEER","Disney Streaming","New York",NY,None,None,None
+553,"Senior Data Engineer","DATA ENGINEER",HelloFresh,"New York",NY,None,None,None
+554,"Software Engineer, Data Collections","DATA ENGINEER","The New York Times","New York",NY,None,None,None
+555,"Data Analytics Engineer","DATA ENGINEER","Scientific American","New York",NY,"Estimated $121K – $154K a year",150K+,100K+
+556,"Software Engineer (Data), Delivery Prediction","DATA ENGINEER",Uber,"New York",NY,None,None,None
+557,"Data Engineer, Content Analytics","DATA ENGINEER",Spotify,"New York",NY,"Estimated $99.8K – $126K a year",125K+,75K+
+558,"Lead Data Engineer ( Remote or Hybrid )","DATA ENGINEER","Disney Media & Entertainment Distribution","New York",NY,None,None,None
+559,"Data Engineer, TikTok Content Creation and Consumption","DATA ENGINEER",TikTok,"New York",NY,"Estimated $68.7K – $87.1K a year",75K+,50K+
+560,"Java / Python Data Engineer","DATA ENGINEER",Cognizant,"New York",NY,None,None,None
+561,"Data Engineer","DATA ENGINEER","Federal Reserve Bank of New York","New York",NY,"Estimated $117K – $148K a year",125K+,100K+
+562,"Data Engineer, Wirecutter","DATA ENGINEER","The New York Times","New York",NY,None,None,None
+563,"Sr. Data Engineer - Medical Data and Analytics","DATA ENGINEER","Cardinal Health","New York",NY,None,None,None
+564,"Software Data Engineer, Quality Systems","DATA ENGINEER",HelloFresh,"New York",NY,None,None,None
+565,"Data Engineer, Data Products Engineering","DATA ENGINEER",NBCUniversal,"New York",NY,None,None,None
+566,"Data Engineer, BPE","DATA ENGINEER",Meta,"New York",NY,None,None,None
+567,"Data Engineer","DATA ENGINEER",SiriusXM,"New York",NY,None,None,None
+568,"Data Repository Engineer","DATA ENGINEER","New York University","New York",NY,None,None,None
+569,"Data Engineer I","DATA ENGINEER",ACLU,"New York",NY,"$91,237 a year",75K+,75K+
+570,"Software Engineer, Data Analytics Engine","DATA ENGINEER",DoorDash,"New York",NY,None,None,None
+571,"Data Science Analyst/Engineer, Neurosurgery","DATA ENGINEER","NYU Langone Health","New York",NY,None,None,None
+572,"Data Engineer - Risk","DATA ENGINEER",nate,"New York",NY,"Estimated $138K – $175K a year",150K+,125K+
+573,"Senior Backend Engineer/Data - Apple Music","DATA ENGINEER",Apple,"New York",NY,None,None,None
+574,"Lead Data Engineer - Analytics Engineering","DATA ENGINEER","Macy’s","New York",NY,None,None,None
+575,"Data Engineer","DATA ENGINEER","Infinity Consulting Solutions","New York",NY,"$125,000 - $150,000 a year",150K+,125K+
+576,"Lead Data Engineer (SSIS, Tableau and PowerBI)","DATA ENGINEER",TDG,"New York",NY,"Estimated $140K – $177K a year",150K+,125K+
+577,"Sr Data Engineer","DATA ENGINEER",Paramount,"New York",NY,None,None,None
+578,"Engineer - Java - Enterprise Data Vault","DATA ENGINEER",Amex,"New York",NY,None,None,None
+579,"Data Engineer, People Analytics","DATA ENGINEER",Wework,"New York",NY,None,None,None
+580,"Sr. Data Engineer, Analytics (Remote)","DATA ENGINEER",Quizlet,"New York",NY,"$141,000 - $190,000 a year",150K+,125K+
+581,"Backend Software Development Engineer (All Levels) - C360 Data, Engagement & Search Engineering","DATA ENGINEER",Salesforce,"New York",NY,"$98,900 a year",75K+,75K+
+582,"Data Engineer - Credit eTrading","DATA ENGINEER","JPMorgan Chase Bank, N.A.","New York",NY,None,None,None
+583,"Data Software Engineer- REMOTE","DATA ENGINEER",FreeWheel,"New York",NY,None,None,None
+584,"Data Engineer","DATA ENGINEER",UBS,"New York",NY,"Estimated $108K – $137K a year",125K+,100K+
+585,"Software Engineer II - Big Data","DATA ENGINEER",Uber,"New York",NY,None,None,None
+586,"Data Engineer - Data Pipelines & Data Science Platforms","DATA ENGINEER","S&P Global","New York",NY,"$68,300 - $155,900 a year",150K+,50K+
+587,"Software Development Engineer, Amazon Publisher Services, Publisher Data Lake","DATA ENGINEER","Amazon.com Services LLC","New York",NY,None,None,None
+588,"Associate Data Engineer","DATA ENGINEER","The New York Stem Cell Foundation Research Institute","New York",NY,"Estimated $95K – $120K a year",100K+,75K+
+589,"Data Engineer (All levels)","DATA ENGINEER","Ribbon Health","New York",NY,"Estimated $121K – $153K a year",150K+,100K+
+590,"Senior Software Engineer (Data Engineering)","DATA ENGINEER",AT&T,"New York",NY,None,None,None
+591,"Software Engineer - Data Science","DATA ENGINEER",Ampersand,"New York",NY,"Estimated $117K – $149K a year",125K+,100K+
+592,"Logistics Engineer, Data Analytics","DATA ENGINEER","Cardinal Health","New York",NY,None,None,None
+593,"Senior Software Data Engineer (Remote)","DATA ENGINEER","Signify Health","New York",NY,"Estimated $132K – $167K a year",150K+,125K+
+594,"Senior Data Engineer","DATA ENGINEER",Casper,"New York",NY,"Estimated $118K – $149K a year",125K+,100K+
+595,"Data Engineer","DATA ENGINEER","Hearst Media Services","New York",NY,"Estimated $105K – $133K a year",125K+,100K+
+596,"Software Development Engineer, AWS Computer Vision Data Platform","DATA ENGINEER","Amazon.com Services LLC","New York",NY,None,None,None
+597,"Software Engineer Lead - Data Engineer","DATA ENGINEER",Capgemini,"New York",NY,None,None,None
+598,"Sr Big Data/Data Engineer","DATA ENGINEER",Evalueserve,"New York",NY,"$150,000 - $205,000 a year",200K+,150K+
+599,"Data Science - Data Engineer","DATA ENGINEER",Odeko,"New York",NY,"Estimated $123K – $155K a year",150K+,100K+
