@@ -123,6 +123,23 @@ def hour_range(value):
     elif 103 <= value:
         return "200K+"
 
+def sal_range_day(value):
+    #check range of value here
+    if value < 192:
+        return "50K-"
+    elif 192 <= value < 288:
+        return "50K+"
+    elif 288 <= value < 385:
+        return "75K+"
+    elif 385 <= value < 481:
+        return "100K+"
+    elif 481 <= value < 577:
+        return "125K+"           #fix how decimals are handled and check what the number is on each func call
+    elif 577 <= value < 769:     # add a function for months and check if the by hour numbers look good (no period was found b4)
+        return "150K+"
+    elif 769 <= value:
+        return "200K+"
+
 def sal_range_est(value):
     #check range of value here
     if value < 50:
@@ -181,7 +198,7 @@ def sql_add(values, name):
                         word, frequency) VALUES(?,?,?,?,?)"""
                 cursor.execute(sql, values) 
                 sqliteConnection.commit()
-        print("Successfully added to DB")
+        #print("Successfully added to DB")
         cursor.close()
     except sqlite3.Error as error:
         print("Failed to insert data into sqlite table: ", error)
@@ -211,3 +228,27 @@ def scrape_amount():
         except ValueError:
             print("Amount must be a number, try again")
     return val
+
+def link_reformatting(next, link):
+    print(next[5:])
+    word = next[5:]
+    print(word)
+    for k in range(len(word)):
+        if word[k].isdigit() == False:
+            word = word[:-abs(len(word) - k)]
+            break
+            #next = next[:remove]
+    print(word)
+    word = int(word)
+    #next = driver.find_element(By.XPATH, '//div[@id="searchCountPages"]').
+    start_word = ""
+    index = link.find(("start="))
+    for j in range(int(index), len(link)):
+        if link[j] != "&":
+            start_word += link[j]
+        else:
+            break
+    print(start_word)
+    new_link = link.replace(start_word, f"start={word}0")
+    print(new_link)
+    return new_link
