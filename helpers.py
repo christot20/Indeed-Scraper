@@ -198,7 +198,7 @@ def sql_add(values, name):
                         word, frequency) VALUES(?,?,?,?,?)"""
                 cursor.execute(sql, values) 
                 sqliteConnection.commit()
-        #print("Successfully added to DB")
+        print("Successfully added to DB")
         cursor.close()
     except sqlite3.Error as error:
         print("Failed to insert data into sqlite table: ", error)
