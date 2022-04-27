@@ -7,18 +7,18 @@
 
 -- .headers on 
 -- .mode csv 
--- .output engineerKWNY
--- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ENGINEER" AND job_state = "NY";
--- .output engineerKWSF
--- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ENGINEER" AND job_state = "CA";
--- .output engineerKWChicago
--- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ENGINEER" AND job_state = "IL";
--- .output engineerKWSeattle
--- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ENGINEER" AND job_state = "WA";
--- .output sengineerKWBoston
--- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ENGINEER" AND job_state = "MA";
--- .output engineerKWAustin
--- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ENGINEER" AND job_state = "TX";
+-- .output analystKWNY.csv
+-- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ANALYST" AND job_state = "NY";
+-- .output analystKWSF.csv
+-- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ANALYST" AND job_state = "CA";
+-- .output analystKWChicago.csv
+-- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ANALYST" AND job_state = "IL";
+-- .output analystKWSeattle.csv
+-- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ANALYST" AND job_state = "WA";
+-- .output analystKWBoston.csv
+-- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ANALYST" AND job_state = "MA";
+-- .output analystKWAustin.csv
+-- SELECT * FROM Jobs_Keywords WHERE job_category = "DATA ANALYST" AND job_state = "TX";
 -- .exit
 
 -- make csv for keywords, tableau thing with csv to excel, 
