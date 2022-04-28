@@ -101,3 +101,12 @@ SELECT * FROM
 WHERE job_category = "MACHINE LEARNING ENGINEER"
 ORDER BY frequency DESC
 LIMIT 5);
+
+SELECT COUNT(job_list_name) FROM Jobs_Salaries
+WHERE indeed_salary != "None" AND job_list_name = "DATA ANALYST"
+UNION 
+SELECT COUNT(job_list_name) FROM Jobs_Salaries
+WHERE job_list_name = "DATA ANALYST"
+UNION
+SELECT COUNT(DISTINCT company_name) FROM Jobs_Salaries
+WHERE job_list_name = "DATA ANALYST";
