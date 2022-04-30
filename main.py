@@ -176,7 +176,11 @@ def scrape(num, city, state, job):
             driver.find_element(By.XPATH, '//div[@id="popover-x"]/button[@aria-label="Close"]').click()
         except WebDriverException:
             pass
-        for tag in driver.find_elements(By.XPATH, '//div[@id="mosaic-provider-jobcards"]/a'): #iterates over every link
+        if len(driver.find_elements(By.XPATH, '//div[@id="mosaic-provider-jobcards"]/a')) != 15:
+            job_list = driver.find_elements(By.XPATH, '//div[@id="mosaic-provider-jobcards"]//td[@class="resultContent"]//h2/a') #iterates over every link
+        else:
+            job_list = driver.find_elements(By.XPATH, '//div[@id="mosaic-provider-jobcards"]/a')
+        for tag in job_list: #iterates over every link
             try:   
                 #page_title = driver.title #check if this works                                                                    #was getting ct places for NY
                 WebDriverWait(driver, 10).until(EC.visibility_of((tag)))                       #issue wirth skipping pages seem to stem off of contiue statemetns, watch them
